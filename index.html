@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>C.K. Ogden Basic English · 智能学习平台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- PWA 配置 -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e3c72">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Basic850">
+<link rel="apple-touch-icon" href="icons/icon-152.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+
+<!-- iOS 启动画面 -->
+<link rel="apple-touch-startup-image" href="screenshots/splash.png">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>📖 C.K. Ogden Basic English</h1>
+        <p>遵循 850词 · 核心规则 · 模块化设计</p>
+        <div class="stats-bar">
+            <div class="stats" id="globalStats">加载中...</div>
+        </div>
+    </div>
+
+    <!-- 可折叠规则卡片 -->
+    <div class="rule-card" id="ruleCard">
+        <div class="rule-header" id="ruleHeader">
+            <h3>📜 C.K. Ogden Basic English 核心规则</h3>
+            <span class="toggle-icon">▼</span>
+        </div>
+        <div class="rule-body" id="ruleBody">
+            <div class="rule-grid">
+    <div class="rule-grid">
+    <!-- 词汇总量 -->
+    <div class="rule-item">
+        <h4>📌 词汇总量</h4>
+        <p>共 <strong>850 个核心词汇</strong><br>
+        400 个一般名词 + 200 个可图画名词<br>
+        100 个形容词 + 150 个操作词/方向词/代词等</p>
+    </div>
+
+    <!-- 16 个操作词 -->
+    <div class="rule-item">
+        <h4>🔧 16 个操作词 (Operators)</h4>
+        <p>
+            <span class="rule-tag">come</span> <span class="rule-tag">go</span> <span class="rule-tag">put</span> <span class="rule-tag">take</span>
+            <span class="rule-tag">give</span> <span class="rule-tag">get</span> <span class="rule-tag">make</span> <span class="rule-tag">keep</span>
+            <span class="rule-tag">let</span> <span class="rule-tag">do</span> <span class="rule-tag">be</span> <span class="rule-tag">have</span>
+            <span class="rule-tag">seem</span> <span class="rule-tag">say</span> <span class="rule-tag">see</span> <span class="rule-tag">send</span>
+        </p>
+        <p class="rule-note">✅ 第三人称单数加 s（如 he takes），have 变为 has</p>
+    </div>
+
+    <!-- 方向词 -->
+    <div class="rule-item">
+        <h4>📍 方向词 (Directives)</h4>
+        <p>
+            <span class="rule-tag">about</span> <span class="rule-tag">across</span> <span class="rule-tag">after</span> <span class="rule-tag">against</span>
+            <span class="rule-tag">among</span> <span class="rule-tag">at</span> <span class="rule-tag">before</span> <span class="rule-tag">between</span>
+            <span class="rule-tag">by</span> <span class="rule-tag">down</span> <span class="rule-tag">for</span> <span class="rule-tag">from</span>
+            <span class="rule-tag">in</span> <span class="rule-tag">of</span> <span class="rule-tag">off</span> <span class="rule-tag">on</span>
+            <span class="rule-tag">out</span> <span class="rule-tag">over</span> <span class="rule-tag">through</span> <span class="rule-tag">to</span>
+            <span class="rule-tag">under</span> <span class="rule-tag">up</span> <span class="rule-tag">with</span> <span class="rule-tag">till</span>
+        </p>
+        <p class="rule-note">📍 表示方向或位置关系</p>
+    </div>
+
+    <!-- 名词规则 -->
+    <div class="rule-item">
+        <h4>📝 名词规则</h4>
+        <p><strong>复数：</strong>一般加 <span class="rule-tag">-s</span></p>
+        <p><strong>例外复数：</strong><span class="rule-tag">feet, teeth, men, women, knives, leaves</span></p>
+        <p><strong>派生词：</strong>300个名词可加 <span class="rule-tag">-er</span>（做事者）或 <span class="rule-tag">-ing</span>（动作）</p>
+        <p><strong>复合词：</strong>名词+名词 或 名词+方向词（如 <span class="rule-tag">birthday, sundown</span>）</p>
+    </div>
+
+    <!-- 形容词规则 -->
+    <div class="rule-item">
+        <h4>🎨 形容词规则</h4>
+        <p><strong>比较级：</strong><span class="rule-tag">more + 形</span> 或 <span class="rule-tag">-er</span></p>
+        <p><strong>最高级：</strong><span class="rule-tag">most + 形</span> 或 <span class="rule-tag">-est</span></p>
+        <p><strong>特殊比较：</strong><span class="rule-tag">good-better-best</span> · <span class="rule-tag">bad-worse-worst</span></p>
+        <p><strong>否定：</strong>50个形容词可加 <span class="rule-tag">un-</span>（如 unhappy）</p>
+    </div>
+
+    <!-- 副词规则 -->
+    <div class="rule-item">
+        <h4>⚡ 副词规则</h4>
+        <p><strong>方式副词：</strong>形容词 + <span class="rule-tag">-ly</span>（如 <span class="rule-tag">slowly</span>）</p>
+        <p><strong>例外：</strong>good → <span class="rule-tag">well</span></p>
+        <p><strong>时间/地点副词：</strong>不按此规则，使用原词</p>
+    </div>
+
+    <!-- 操作词变位 -->
+    <div class="rule-item">
+        <h4>🔄 操作词变位</h4>
+        <p><strong>过去式：</strong>came, went, took, gave, got, made, kept, did, was/were, had, said, saw, sent</p>
+        <p><strong>过去分词：</strong>come, gone, taken, given, got, made, kept, done, been, had, said, seen, sent</p>
+        <p><strong>进行时：</strong><span class="rule-tag">be + -ing</span>（如 is going）</p>
+        <p><strong>将来时：</strong><span class="rule-tag">will + 原形</span></p>
+        <p><strong>被动语态：</strong><span class="rule-tag">be + 过去分词</span></p>
+    </div>
+
+    <!-- 词序规则 -->
+    <div class="rule-item">
+        <h4>📖 词序规则</h4>
+        <p><strong>基本语序：</strong>主语 + 操作词 + 宾语 + 方向词/副词</p>
+        <p><strong>形容词位置：</strong>名词之前</p>
+        <p><strong>否定句：</strong><span class="rule-tag">not</span> 在助动词后</p>
+        <p><strong>疑问句：</strong>倒装助动词和主语</p>
+        <p><strong>示例：</strong>I will give simple rules to the boy slowly.</p>
+    </div>
+
+    <!-- 动词替代规则 -->
+    <div class="rule-item">
+        <h4>🚫 禁止使用复杂动词</h4>
+        <p>用「操作词 + 方向词/名词」替代：</p>
+        <p>❌ investigate → ✅ go into<br>
+        ❌ enter → ✅ go in<br>
+        ❌ ascend → ✅ go up<br>
+        ❌ insert → ✅ put in</p>
+        <p class="rule-note">✅ 只用 16 个操作词表达所有动作</p>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <button class="action-btn" id="showAllBtn">📚 全部单词</button>
+        <button class="action-btn" id="showFavBtn">⭐ 收藏夹</button>
+        <button class="action-btn" id="showWrongBtn">❌ 错词本</button>
+        <button class="action-btn" id="startQuizBtn">📝 单词测试</button>
+        <button class="action-btn" id="showStatsBtn">📈 学习统计</button>
+        <button class="action-btn" id="aiSentenceBtn">🤖 AI 造句</button>
+        <button class="action-btn plan-btn" id="showPlanBtn">📅 学习计划</button>
+    </div>
+
+    <div class="search-bar" id="searchBar">
+        <input type="text" class="search-input" id="searchInput" placeholder="🔍 搜索单词或中文...">
+        <button class="search-btn" id="searchBtn">搜索</button>
+        <button class="clear-btn" id="clearBtn">清除</button>
+    </div>
+
+    <div id="sectionsContainer"></div>
+    <div id="dynamicContainer" style="display: none;"></div>
+</div>
+
+<!-- 模态框 -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="modalWord"></h3>
+            <span class="modal-close" id="modalCloseBtn">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div id="modalPhonetic" style="color:#64748b; margin-bottom:10px;"></div>
+            <div id="modalMeaning" style="margin-bottom:15px;"></div>
+            <div style="display:flex; gap:8px; margin:10px 0;">
+                <button class="audio-btn" id="modalPlayUkBtn">英音</button>
+                <button class="audio-btn" id="modalPlayUsBtn">美音</button>
+            </div>
+            <div class="example-box">
+                <div class="example-header">
+                    <button class="speak-btn" id="modalPlaySentenceBtn">🔊 朗读例句</button>
+                </div>
+                <div class="example-en" id="modalSentenceEn" style="margin-top:5px;"></div>
+                <div class="example-cn" id="modalSentenceCn"></div>
+            </div>
+            <div><span class="info-tag" id="modalType"></span><span class="info-tag" id="modalLevel"></span></div>
+        </div>
+    </div>
+</div>
+
+<audio id="globalAudio"></audio>
+
+<!--
+  脚本加载顺序：
+  1. storage.js  — 初始化 favorites/wrongWords/mastered
+  2. core.js     — 工具函数、CSV 解析、renderCurrentView；不再自动调用 loadData()
+  3. words.js    — 注册 renderWords / renderFavorites / renderWrong
+  4. search.js   — 注册 performSearch / clearSearch
+  5. quiz/stats/ai/plan — 各功能模块
+  6. 内联脚本    — DOMContentLoaded 后绑定所有按钮并调用 loadData()
+-->
+<script src="js/storage.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/core.js"></script>
+<script src="modules/words.js"></script>
+<script src="js/search.js"></script>
+<script src="modules/quiz.js"></script>
+<script src="modules/stats.js"></script>
+<script src="modules/sentenceDatabase.js"></script>
+<script src="modules/ai.js"></script>
+<script src="modules/plan.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    // ── 返回主视图的公共函数 ──────────────────────────────────
+    function backToMain() {
+        document.getElementById('dynamicContainer').style.display = 'none';
+        document.getElementById('sectionsContainer').style.display = 'block';
+        document.getElementById('searchBar').style.display = 'flex';
+    }
+
+    // ── 切换到动态容器 ────────────────────────────────────────
+    function goToDynamic() {
+        document.getElementById('sectionsContainer').style.display = 'none';
+        document.getElementById('dynamicContainer').style.display = 'block';
+        document.getElementById('searchBar').style.display = 'none';
+    }
+
+    // ── 全部单词 ──────────────────────────────────────────────
+    document.getElementById('showAllBtn').onclick = function () {
+        window.currentView = 'all';
+        backToMain();
+        if (typeof window.renderWords === 'function') {
+            window.renderWords(window.allWords, window.availableLevels);
+        }
+    };
+
+    // ── 收藏夹 ────────────────────────────────────────────────
+    document.getElementById('showFavBtn').onclick = function () {
+        window.currentView = 'favorites';
+        backToMain();
+        if (typeof window.renderFavorites === 'function') {
+            window.renderFavorites();
+        }
+    };
+
+    // ── 错词本 ────────────────────────────────────────────────
+    document.getElementById('showWrongBtn').onclick = function () {
+        window.currentView = 'wrong';
+        backToMain();
+        if (typeof window.renderWrong === 'function') {
+            window.renderWrong();
+        }
+    };
+
+    // ── 单词测试 ──────────────────────────────────────────────
+    document.getElementById('startQuizBtn').onclick = function () {
+        goToDynamic();
+        if (typeof window.initQuiz === 'function') {
+            window.initQuiz(
+                window.allWords,
+                window.currentSearch || '',
+                window.addWrongWord,
+                window.updateGlobalStats,
+                function () { backToMain(); if (typeof window.renderWords === 'function') window.renderWords(window.allWords, window.availableLevels); }
+            );
+        } else {
+            alert('单词测试模块加载失败');
+        }
+    };
+
+    // ── 学习统计 ──────────────────────────────────────────────
+    document.getElementById('showStatsBtn').onclick = function () {
+        goToDynamic();
+        if (typeof window.initStats === 'function') {
+            window.initStats(
+                window.allWords,
+                window.favorites,
+                window.wrongWords,
+                window.mastered,
+                function () { backToMain(); }
+            );
+        } else {
+            alert('统计模块加载失败');
+        }
+    };
+
+    // ── AI 造句 ───────────────────────────────────────────────
+    document.getElementById('aiSentenceBtn').onclick = function () {
+        goToDynamic();
+        if (typeof window.initAI === 'function') {
+            window.initAI(
+                window.allWords,
+                window.playAudio,
+                window.speakSentence,
+                function () { backToMain(); }
+            );
+        } else {
+            alert('AI 模块加载失败');
+        }
+    };
+
+    // ── 学习计划 ──────────────────────────────────────────────
+    document.getElementById('showPlanBtn').onclick = function () {
+        goToDynamic();
+        if (typeof window.initPlan === 'function') {
+            window.initPlan(
+                window.allWords,
+                window.mastered,
+                window.favorites,
+                window.wrongWords,
+                window.addWrongWord,
+                window.updateGlobalStats,
+                function () { backToMain(); }
+            );
+        } else {
+            alert('学习计划模块加载失败');
+        }
+    };
+
+    // ── 搜索栏 ────────────────────────────────────────────────
+    document.getElementById('searchBtn').onclick = function () {
+        window.currentSearch = document.getElementById('searchInput').value.trim();
+        if (typeof window.renderCurrentView === 'function') window.renderCurrentView(window.currentSearch);
+    };
+
+    document.getElementById('clearBtn').onclick = function () {
+        document.getElementById('searchInput').value = '';
+        window.currentSearch = '';
+        if (typeof window.renderCurrentView === 'function') window.renderCurrentView('');
+    };
+
+    document.getElementById('searchInput').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            window.currentSearch = this.value.trim();
+            if (typeof window.renderCurrentView === 'function') window.renderCurrentView(window.currentSearch);
+        }
+    });
+
+    // ── 最后：加载数据（此时 renderWords 已注册）────────────────
+    if (typeof window.loadData === 'function') {
+        window.loadData();
+    }
+});
+</script>
+    <!-- 页脚声明 -->
+    <div style="text-align: center; margin-top: 40px; padding: 20px 15px; font-size: 12px; color: #94a3b8; border-top: 1px solid #e2e8f0; background: white; border-radius: 12px;">
+        <p style="margin: 0 0 8px 0;">
+            📖 Basic English 850词 · 智能学习平台 | 基于 C.K. Ogden 850 核心词汇体系
+        </p>
+        <p style="margin: 0 0 8px 0;">
+            🔊 发音功能由 <a href="https://dict.youdao.com/" target="_blank" style="color: #94a3b8; text-decoration: none;">有道词典</a> 提供技术支持，仅供学习交流使用
+        </p>
+        <p style="margin: 0;">
+            MIT License | 纯前端实现 · 数据本地存储
+        </p>
+    </div>
+
+    <!-- 原有的 audio 和 script 保持不变 -->
+    <audio id="globalAudio"></audio>
+
+    <!-- 脚本加载顺序 -->
+    <script src="js/storage.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/core.js"></script>
+    <script src="modules/words.js"></script>
+    <script src="js/search.js"></script>
+    <script src="modules/quiz.js"></script>
+    <script src="modules/stats.js"></script>
+    <script src="modules/sentenceDatabase.js"></script>
+    <script src="modules/ai.js"></script>
+    <script src="modules/plan.js"></script>
+    <script>
+        // ... 你的 JavaScript 代码 ...
+    </script>
+    <!-- 注册 Service Worker -->
+<script>
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+                console.log('✅ Service Worker 注册成功，范围:', registration.scope);
+                
+                // 检查更新
+                registration.addEventListener('updatefound', function() {
+                    const newWorker = registration.installing;
+                    console.log('发现新版本 Service Worker');
+                    newWorker.addEventListener('statechange', function() {
+                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                            console.log('有新版本可用，刷新即可更新');
+                            // 可选：提示用户刷新
+                            if (window.showToast) {
+                                window.showToast('新版本已准备好，刷新即可更新', 'info');
+                            }
+                        }
+                    });
+                });
+            })
+            .catch(function(error) {
+                console.log('❌ Service Worker 注册失败:', error);
+            });
+    });
+}
+
+// 监听网络状态
+window.addEventListener('online', function() {
+    if (window.showToast) {
+        window.showToast('网络已连接', 'success');
+    }
+    console.log('网络已连接');
+});
+
+window.addEventListener('offline', function() {
+    if (window.showToast) {
+        window.showToast('网络已断开，部分功能可能不可用', 'warning');
+    }
+    console.log('网络已断开');
+});
+</script>
+</body>
+</html>

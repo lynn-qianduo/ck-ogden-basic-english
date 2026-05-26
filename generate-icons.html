@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic English 图标生成器</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            background: #0d2e1a;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            border-radius: 32px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #1a4d2e;
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        button {
+            background: #2d6a4f;
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 60px;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        button:hover {
+            background: #1a4d2e;
+        }
+        .preview-area {
+            background: #f8fafc;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .preview-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .preview-icons img {
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .status {
+            padding: 12px;
+            border-radius: 12px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .status.success {
+            background: #d1fae5;
+            color: #065f46;
+        }
+        .status.loading {
+            background: #fef3c7;
+            color: #92400e;
+        }
+        .footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+        code {
+            background: #e2e8f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .size-badge {
+            background: #e2e8f0;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-family: monospace;
+            display: inline-block;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>📖 Basic English</h1>
+        <div class="subtitle">PWA 图标生成器 · 基于 C.K. Ogden 850 核心词汇</div>
+        
+        <button id="generateBtn">✨ 一键生成所有图标</button>
+        
+        <div class="preview-area">
+            <div style="font-size:14px; color:#64748b;">📐 图标预览</div>
+            <div class="preview-icons" id="preview"></div>
+            <div id="sizeList" style="margin-top:12px;"></div>
+        </div>
+        
+        <div id="status" style="display: none;"></div>
+        <div class="footer">
+            💡 点击按钮后自动下载 8 个图标<br>
+            放入项目的 <code>icons/</code> 文件夹
+        </div>
+    </div>
+
+    <script>
+        const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+        const PREFIX = 'basic-english-icon';
+        
+        function drawIcon(size) {
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            const ctx = canvas.getContext('2d');
+            
+            // 深绿渐变背景
+            const grad = ctx.createLinearGradient(0, 0, size, size);
+            grad.addColorStop(0, '#0d3b22');
+            grad.addColorStop(0.5, '#1b5e3a');
+            grad.addColorStop(1, '#0a2e1a');
+            ctx.fillStyle = grad;
+            ctx.fillRect(0, 0, size, size);
+            
+            // 装饰圆环
+            ctx.beginPath();
+            ctx.arc(size / 2, size * 0.4, size * 0.26, 0, Math.PI * 2);
+            ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+            ctx.lineWidth = size * 0.015;
+            ctx.stroke();
+            
+            // Basic（大）
+            ctx.fillStyle = 'white';
+            ctx.font = `bold ${size * 0.2}px "Segoe UI", system-ui`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('Basic', size / 2, size * 0.44);
+            
+            // English（大）
+            ctx.font = `${size * 0.15}px "Segoe UI", system-ui`;
+            ctx.fillStyle = 'rgba(255,255,255,0.92)';
+            ctx.fillText('English', size / 2, size * 0.61);
+            
+            // 分隔线
+            ctx.beginPath();
+            ctx.moveTo(size * 0.3, size * 0.71);
+            ctx.lineTo(size * 0.7, size * 0.71);
+            ctx.strokeStyle = 'rgba(255,255,255,0.2)';
+            ctx.lineWidth = size * 0.005;
+            ctx.stroke();
+            
+            // 850（中）
+            ctx.font = `500 ${size * 0.11}px monospace`;
+            ctx.fillStyle = 'rgba(255,255,255,0.75)';
+            ctx.fillText('850', size / 2, size * 0.83);
+            
+            return canvas;
+        }
+        
+        function updatePreview() {
+            const container = document.getElementById('preview');
+            container.innerHTML = '';
+            sizes.forEach(size => {
+                const canvas = drawIcon(size);
+                const img = document.createElement('img');
+                img.src = canvas.toDataURL();
+                img.style.width = '40px';
+                img.style.height = '40px';
+                img.title = `${size}x${size}`;
+                container.appendChild(img);
+            });
+            
+            const sizeContainer = document.getElementById('sizeList');
+            sizeContainer.innerHTML = sizes.map(s => `<span class="size-badge">${s}x${s}</span>`).join('');
+        }
+        
+        async function generateAll() {
+            const btn = document.getElementById('generateBtn');
+            const statusDiv = document.getElementById('status');
+            
+            btn.disabled = true;
+            btn.textContent = '⏳ 生成中...';
+            statusDiv.style.display = 'block';
+            statusDiv.className = 'status loading';
+            statusDiv.textContent = '正在生成 8 个图标...';
+            
+            for (let i = 0; i < sizes.length; i++) {
+                const canvas = drawIcon(sizes[i]);
+                const link = document.createElement('a');
+                link.download = `${PREFIX}-${sizes[i]}.png`;
+                link.href = canvas.toDataURL();
+                link.click();
+                statusDiv.textContent = `✅ 已生成 ${i + 1}/${sizes.length} 个图标...`;
+                await new Promise(r => setTimeout(r, 100));
+            }
+            
+            statusDiv.className = 'status success';
+            statusDiv.innerHTML = `✅ 全部完成！<br>文件: ${PREFIX}-72.png ~ ${PREFIX}-512.png<br>放入 icons/ 文件夹`;
+            
+            btn.disabled = false;
+            btn.textContent = '✨ 一键生成所有图标';
+        }
+        
+        updatePreview();
+        document.getElementById('generateBtn').onclick = generateAll;
+    </script>
+</body>
+</html>
