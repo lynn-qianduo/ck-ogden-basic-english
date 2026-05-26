@@ -1,0 +1,851 @@
+word,meaning,type,level,sentence,sentence_cn,phonetic
+beautiful,美丽的,形容词_gen,A1,This flower is more beautiful than that one.,这朵花比那朵更美丽。,/ˈbjuːtɪfl/
+black,黑色的,形容词_opp,A1,The night is blacker than the day.,夜晚比白天更黑。,/blæk/
+bright,明亮的,形容词_opp,A1,The sun is brighter than the moon.,太阳比月亮更亮。,/braɪt/
+brown,棕色的,形容词_opp,A1,Her hair is darker brown than mine.,她的头发比我的棕色更深。,/braʊn/
+clean,干净的,形容词_opp,A1,The floor is cleaner than the wall.,地板比墙壁更干净。,/kliːn/
+clear,清楚的,形容词_opp,A1,Her voice is clearer than his.,她的声音比他的更清晰。,/klɪr/
+early,早的,形容词_opp,A1,You are earlier than me today.,你今天比我更早。,/ˈɜːrli/
+fat,胖的,形容词_opp,A1,The cat is fatter than the dog.,这只猫比狗更胖。,/fæt/
+first,第一的,形容词_opp,A1,She is the first in her class.,她是班里的第一名。,/fɜːrst/
+full,满的,形容词_opp,A1,The glass is full of water.,杯子里装满了水。,/fʊl/
+good,好的,形容词_opp,A1,This book is better than that one.,这本书比那本更好。,/ɡʊd/
+great,伟大的,形容词_opp,A1,The great tree is taller than the others.,这棵大树比其他树更高。,/ɡreɪt/
+grey,灰色的,形容词_opp,A1,The sky is greyer today than yesterday.,今天的天空比昨天更灰。,/ɡreɪ/
+happy,快乐的,形容词_opp,A1,She is happier than her sister.,她比她姐姐更快乐。,/ˈhæpi/
+hard,硬的/困难的,形容词_opp,A1,This stone is harder than wood.,这块石头比木头更硬。,/hɑːrd/
+high,高的,形容词_opp,A1,The mountain is higher than the hill.,山比丘陵更高。,/haɪ/
+important,重要的,形容词_opp,A1,This matter is more important than that one.,这件事比那件更重要。,/ɪmˈpɔːrtnt/
+kind,和善的,形容词_opp,A1,She is kinder than her mother.,她比她母亲更和善。,/kaɪnd/
+like,相似的,形容词_opp,A1,The two pictures are very like each other.,这两幅画非常相似。,/laɪk/
+long,长的,形容词_opp,A1,The river is longer than the road.,这条河比这条路更长。,/lɔːŋ/
+new,新的,形容词_opp,A1,The new house is bigger than the old one.,新房子比旧房子更大。,/nuː/
+open,开着的,形容词_opp,A1,The door is open.,门是开着的。,/ˈoʊpən/
+poor,贫穷的,形容词_opp,A1,They are poorer than their neighbors.,他们比邻居更穷。,/pʊr/
+present,现在的/在场的,形容词_opp,A1,The present situation is difficult.,现在的情况很困难。,/ˈpreznt/
+quick,快的,形容词_opp,A1,The rabbit is quicker than the turtle.,兔子比乌龟更快。,/kwɪk/
+quiet,安静的,形容词_opp,A1,The library is quieter than the street.,图书馆比街道更安静。,/ˈkwaɪət/
+ready,准备好的,形容词_opp,A1,I am ready for the test.,我准备好考试了。,/ˈredi/
+red,红色的,形容词_opp,A1,Her dress is redder than mine.,她的裙子比我的更红。,/red/
+right,正确的/右边的,形容词_opp,A1,Your answer is more right than mine.,你的答案比我的更正确。,/raɪt/
+round,圆形的,形容词_opp,A1,The ball is rounder than the box.,球比盒子更圆。,/raʊnd/
+same,相同的,形容词_opp,A1,The two books are the same.,这两本书是一样的。,/seɪm/
+second,第二的,形容词_opp,A1,She is the second in her class.,她是班里的第二名。,/ˈsekənd/
+strong,强壮的,形容词_opp,A1,He is stronger than his brother.,他比他哥哥更强壮。,/strɔːŋ/
+sweet,甜的,形容词_opp,A1,This apple is sweeter than that one.,这个苹果比那个更甜。,/swiːt/
+tall,高的,形容词_opp,A1,The man is taller than the boy.,这个男人比男孩更高。,/tɔːl/
+tired,疲倦的,形容词_opp,A1,She is more tired than her sister.,她比她妹妹更累。,/ˈtaɪərd/
+true,真实的,形容词_opp,A1,Her story is truer than his.,她的故事比他的更真实。,/truː/
+warm,温暖的,形容词_opp,A1,The water is warmer than the air.,水比空气更温暖。,/wɔːrm/
+wet,湿的,形容词_opp,A1,The ground is wetter than the floor.,地面比地板更湿。,/wet/
+wide,宽的,形容词_opp,A1,The river is wider than the stream.,这条河比小溪更宽。,/waɪd/
+yellow,黄色的,形容词_opp,A1,The sun is more yellow in the morning.,早晨的太阳更黄。,/ˈjeloʊ/
+young,年轻的,形容词_opp,A1,She is younger than her sister.,她比她姐姐更年轻。,/jʌŋ/
+bad,坏的,形容词_opp,A1,The weather is worse today than yesterday.,今天天气比昨天更糟。,/bæd/
+blue,蓝色的,形容词_opp,A1,The sky is bluer than the sea.,天空比大海更蓝。,/bluː/
+cold,冷的,形容词_opp,A1,Winter is colder than autumn.,冬天比秋天更冷。,/koʊld/
+dark,黑暗的,形容词_opp,A1,The night is darker than the evening.,夜晚比傍晚更黑。,/dɑːrk/
+dead,死亡的,形容词_opp,A1,The dead tree fell to the ground.,死树倒在了地上。,/ded/
+dear,亲爱的/贵的,形容词_opp,A1,She is dearer to me than anyone.,她对我来说比任何人都亲。,/dɪr/
+different,不同的,形容词_opp,A1,My opinion is different from yours.,我的意见和你的不同。,/ˈdɪfrənt/
+dirty,脏的,形容词_opp,A1,The floor is dirtier than the wall.,地板比墙壁更脏。,/ˈdɜːrti/
+dry,干的,形容词_opp,A1,The desert is drier than the forest.,沙漠比森林更干燥。,/draɪ/
+green,绿色的,形容词_opp,A1,The grass is greener in spring.,春天的草更绿。,/ɡriːn/
+last,最后的,形容词_opp,A1,This is the last piece of cake.,这是最后一块蛋糕。,/læst/
+late,迟的,形容词_opp,A1,You are later than yesterday.,你比昨天来得更晚。,/leɪt/
+left,左边的,形容词_opp,A1,Take the left turn at the corner.,在拐角处向左转。,/left/
+old,旧的/老的,形容词_opp,A1,This house is older than that one.,这栋房子比那栋更旧。,/oʊld/
+sad,悲伤的,形容词_opp,A1,She is sadder than her friend.,她比她的朋友更悲伤。,/sæd/
+short,短的,形容词_opp,A1,The boy is shorter than the man.,男孩比男人更矮。,/ʃɔːrt/
+slow,慢的,形容词_opp,A1,The turtle is slower than the rabbit.,乌龟比兔子更慢。,/sloʊ/
+small,小的,形容词_opp,A1,This room is smaller than that one.,这个房间比那个更小。,/smɔːl/
+white,白色的,形容词_opp,A1,The snow is whiter than the clouds.,雪比云更白。,/waɪt/
+wrong,错误的,形容词_opp,A1,His answer is wrong.,他的答案是错误的。,/rɔːŋ/
+able,有能力的,形容词_gen,A2,She is more able than her brother.,她比她哥哥更有能力。,/ˈeɪbl/
+angry,生气的,形容词_gen,A2,He is angrier today than yesterday.,他今天比昨天更生气。,/ˈæŋɡri/
+boiling,沸腾的,形容词_gen,A2,The water is boiling hot.,水沸腾了。,/ˈbɔɪlɪŋ/
+broken,破碎的,形容词_gen,A2,The broken cup is on the floor.,破碎的杯子在地板上。,/ˈbroʊkən/
+cheap,便宜的,形容词_opp,A2,This shirt is cheaper than that one.,这件衬衫比那件更便宜。,/tʃiːp/
+common,常见的,形容词_opp,A2,This bird is more common in the north.,这种鸟在北方更常见。,/ˈkɑːmən/
+cut,切开的,形容词_gen,A2,The cut finger is healing slowly.,切伤的手指正在慢慢愈合。,/kʌt/
+deep,深的,形容词_opp,A2,The river is deeper than the lake.,这条河比那个湖更深。,/diːp/
+electric,电的,形容词_opp,A2,The electric light is brighter than the candle.,电灯比蜡烛更亮。,/ɪˈlektrɪk/
+flat,平坦的,形容词_opp,A2,The floor is flatter than the road.,地板比路面更平坦。,/flæt/
+free,自由的,形容词_opp,A2,He is freer now than before.,他现在比以前更自由了。,/friː/
+healthy,健康的,形容词_gen,A2,He is healthier than he was last year.,他比去年更健康。,/ˈhelθi/
+living,活着的,形容词_opp,A2,There are living things in the sea.,海洋里有活的生物。,/ˈlɪvɪŋ/
+male,男性的,形容词_opp,A2,The male bird is more colorful than the female.,雄性鸟比雌性更鲜艳。,/meɪl/
+married,已婚的,形容词_opp,A2,She is married to a doctor.,她嫁给了一位医生。,/ˈmærid/
+natural,自然的,形容词_opp,A2,It is natural for a baby to cry.,婴儿哭是自然的。,/ˈnætʃrəl/
+necessary,必要的,形容词_opp,A2,Food is more necessary than drink.,食物比饮料更必要。,/ˈnesəseri/
+normal,正常的,形容词_opp,A2,His temperature is normal.,他的体温正常。,/ˈnɔːrml/
+past,过去的,形容词_opp,A2,The past week has been busy.,过去的一周很忙碌。,/pæst/
+physical,身体的/物理的,形容词_opp,A2,Physical exercise is good for health.,体育锻炼对健康有益。,/ˈfɪzɪkl/
+possible,可能的,形容词_gen,A2,It is possible to do it more quickly.,有可能做得更快。,/ˈpɑːsəbl/
+sharp,锋利的,形容词_opp,A2,This knife is sharper than that one.,这把刀比那把更锋利。,/ʃɑːrp/
+smooth,光滑的,形容词_opp,A2,The surface is smoother than the road.,这个表面比路面更光滑。,/smuːð/
+straight,直的,形容词_opp,A2,This line is straighter than that one.,这条线比那条更直。,/streɪt/
+thick,厚的,形容词_opp,A2,The wall is thicker than the door.,这堵墙比门更厚。,/θɪk/
+tight,紧的,形容词_opp,A2,The shoes are tighter than the boots.,这双鞋比靴子更紧。,/taɪt/
+waiting,等待的,形容词_gen,A2,The waiting man is getting impatient.,等待的男人变得不耐烦了。,/ˈweɪtɪŋ/
+wise,明智的,形容词_opp,A2,He is wiser than his younger brother.,他比他弟弟更明智。,/waɪz/
+awake,醒着的,形容词_gen,A2,The baby is awake.,婴儿醒着。,/əˈweɪk/
+bitter,苦的,形容词_opp,A2,The medicine is more bitter than the tea.,这种药比茶更苦。,/ˈbɪtər/
+certain,确定的,形容词_gen,A2,I am certain of my answer.,我对我的答案很确定。,/ˈsɜːrtn/
+false,假的,形容词_opp,A2,His story is false.,他的故事是假的。,/fɔːls/
+female,女性的,形容词_opp,A2,The female bird is smaller than the male.,雌性鸟比雄性更小。,/ˈfiːmeɪl/
+foolish,愚蠢的,形容词_opp,A2,It was a foolish thing to do.,做那件事很愚蠢。,/ˈfuːlɪʃ/
+future,未来的,形容词_opp,A2,My future plans are unclear.,我未来的计划还不清楚。,/ˈfjuːtʃər/
+ill,生病的,形容词_opp,A2,The child is ill today.,孩子今天生病了。,/ɪl/
+loud,大声的,形容词_opp,A2,The music is louder than the voices.,音乐比说话声更大。,/laʊd/
+low,低的,形容词_opp,A2,The plane is lower than the clouds.,飞机比云层更低。,/loʊ/
+narrow,窄的,形容词_opp,A2,The path is narrower than the road.,这条小路比大路更窄。,/ˈneroʊ/
+opposite,相反的,形容词_opp,A2,The two men went in opposite directions.,两个人朝相反的方向走了。,/ˈɑːpəzɪt/
+public,公共的,形容词_opp,A2,This is a public library.,这是一个公共图书馆。,/ˈpʌblɪk/
+rough,粗糙的,形容词_opp,A2,The stone is rougher than the glass.,石头比玻璃更粗糙。,/rʌf/
+safe,安全的,形容词_opp,A2,The box is safe under the bed.,盒子在床底下很安全。,/seɪf/
+shut,关着的,形容词_opp,A2,The window is shut.,窗户关着。,/ʃʌt/
+simple,简单的,形容词_opp,A2,The first question is simpler than the last.,第一个问题比最后一个更简单。,/ˈsɪmpl/
+soft,软的,形容词_opp,A2,The pillow is softer than the chair.,枕头比椅子更软。,/sɔːft/
+special,特别的,形容词_opp,A2,Today is a special day for us.,今天对我们来说是特别的一天。,/ˈspeʃl/
+strange,奇怪的,形容词_opp,A2,The noise was stranger than any I had heard before.,这个声音比我以前听过的任何声音都更奇怪。,/streɪndʒ/
+thin,薄的/瘦的,形容词_opp,A2,The paper is thinner than the card.,纸比卡片更薄。,/θɪn/
+acid,酸的,形容词_gen,B1,The taste of lemon is more acid than the taste of orange.,柠檬的味道比橙子更酸。,/ˈæsɪd/
+automatic,自动的,形容词_gen,B1,The new machine is more automatic than the old one.,这台新机器比旧的那台更自动化。,/ˌɔːtəˈmætɪk/
+chemical,化学的,形容词_gen,B1,The chemical reaction is faster than before.,这个化学反应比以前更快。,/ˈkemɪkl/
+chief,主要的,形容词_gen,B1,His chief interest is music.,他的主要兴趣是音乐。,/tʃiːf/
+complex,复杂的,形容词_gen,B1,The problem is more complex than I thought.,这个问题比我想象的更复杂。,/kəmˈpleks/
+conscious,有意识的,形容词_gen,B1,She is conscious of her mistakes.,她意识到了自己的错误。,/ˈkɑːnʃəs/
+dependent,依赖的,形容词_gen,B1,The child is dependent on his parents.,这个孩子依赖他的父母。,/dɪˈpendənt/
+elastic,有弹性的,形容词_gen,B1,This band is more elastic than that one.,这根带子比那根更有弹性。,/ɪˈlæstɪk/
+equal,相等的,形容词_opp,B1,The two amounts are equal.,这两个数量相等。,/ˈiːkwəl/
+fertile,肥沃的,形容词_opp,B1,This land is more fertile than that field.,这块土地比那片田地更肥沃。,/ˈfɜːrtl/
+fixed,固定的,形容词_opp,B1,The price is fixed and will not change.,价格是固定的，不会变动。,/fɪkst/
+frequent,频繁的,形容词_opp,B1,The trains are more frequent on weekdays.,工作日火车班次更频繁。,/ˈfriːkwənt/
+general,一般的,形容词_gen,B1,This is a general rule.,这是一般规则。,/ˈdʒenrəl/
+hanging,悬挂的,形容词_gen,B1,The hanging lamp is moving slowly.,吊灯在缓慢地移动。,/ˈhæŋɪŋ/
+hollow,空心的,形容词_opp,B1,The pipe is hollow.,这根管子是空心的。,/ˈhɑːloʊ/
+material,物质的/材料的,形容词_gen,B1,The material world is all around us.,物质世界就在我们周围。,/məˈtɪriəl/
+medical,医疗的,形容词_gen,B1,He works in a medical school.,他在一所医学院工作。,/ˈmedɪkl/
+military,军事的,形容词_gen,B1,The military forces are larger than before.,军事力量比以前更大了。,/ˈmɪlɪteri/
+parallel,平行的,形容词_opp,B1,The two lines are parallel.,这两条线是平行的。,/ˈpærəlel/
+political,政治的,形容词_opp,B1,There are two political parties in the country.,这个国家有两个政党。,/pəˈlɪtɪkl/
+private,私人的,形容词_opp,B1,This is my private room.,这是我的私人房间。,/ˈpraɪvət/
+probable,很可能的,形容词_opp,B1,It is more probable today than yesterday.,今天比昨天可能性更大。,/ˈprɑːbəbl/
+regular,规律的,形容词_opp,B1,The trains run at regular times.,火车在固定时间运行。,/ˈreɡjələr/
+responsible,负责的,形容词_opp,B1,She is more responsible than her brother.,她比她哥哥更负责任。,/rɪˈspɑːnsəbl/
+separate,分开的,形容词_opp,B1,The two rooms are separate.,这两个房间是分开的。,/ˈseprət/
+serious,严重的,形容词_opp,B1,His illness is more serious than hers.,他的病比她的更严重。,/ˈsɪriəs/
+sticky,粘的,形容词_gen,B1,The glue is stickier than the paste.,这种胶水比浆糊更粘。,/ˈstɪki/
+stiff,僵硬的,形容词_gen,B1,The new shoes are stiffer than the old ones.,新鞋比旧鞋更硬。,/stɪf/
+sudden,突然的,形容词_opp,B1,The sudden change was a surprise.,突然的变化让人吃惊。,/ˈsʌdn/
+violent,暴力的,形容词_opp,B1,The storm is more violent than yesterday.,今天的暴风雨比昨天更猛烈。,/ˈvaɪələnt/
+bent,弯曲的,形容词_opp,B1,The stick is bent.,这根棍子是弯的。,/bent/
+complete,完整的,形容词_opp,B1,The job is now complete.,工作现在完成了。,/kəmˈpliːt/
+cruel,残忍的,形容词_opp,B1,The cruel man hurt the animals.,那个残忍的人伤害了动物。,/ˈkruːəl/
+delicate,精致的,形容词_gen,B1,This glass is more delicate than that one.,这个杯子比那个更精致。,/ˈdelɪkət/
+feeble,虚弱的,形容词_gen,B1,The old man is feebler than the young boy.,老人比男孩更虚弱。,/ˈfiːbl/
+loose,松的,形容词_gen,B1,The screw is looser than before.,螺丝比以前更松了。,/luːs/
+mixed,混合的,形容词_opp,B1,The colors are mixed together.,颜色混合在一起了。,/mɪkst/
+secret,秘密的,形容词_opp,B1,The secret door is hidden.,秘密的门被藏起来了。,/ˈsiːkrət/
+solid,固体的,形容词_opp,B1,The ice is solid water.,冰是固态的水。,/ˈsɑːlɪd/
+how,如何/多么,疑问副词_adv_int,A1,How quickly can you finish the work?,你能多快完成这项工作？,/haʊ/
+when,什么时候,疑问副词_adv_int,A1,When will you come back?,你什么时候回来？,/wen/
+where,在哪里,疑问副词_adv_int,A1,Where is the nearest hospital?,最近的医院在哪里？,/wer/
+why,为什么,疑问副词_adv_int,A1,Why are you crying?,你为什么在哭？,/waɪ/
+again,再次,副词_adv,A1,Please say that again more slowly.,请再说一遍，慢一点。,/əˈɡen/
+far,遥远地,副词_adv,A1,How far can you run without stopping?,你能不停地跑多远？,/fɑːr/
+here,这里,副词_adv,A1,Come here quickly.,快过来这里。,/hɪr/
+near,在附近,副词_adv,A1,She stood near the window.,她站在窗户附近。,/nɪr/
+now,现在,副词_adv,A1,I am busy now.,我现在很忙。,/naʊ/
+out,在外面/出去,副词_adv,A1,Let's go out and play.,我们出去玩吧。,/aʊt/
+still,仍然,副词_adv,A1,He is still sleeping.,他还在睡觉。,/stɪl/
+then,然后/那时,副词_adv,A1,"First study, then you can play.",先学习，然后你可以玩。,/ðen/
+there,在那里,副词_adv,A1,Put the book there on the shelf.,把书放在那边的架子上。,/ðer/
+together,一起,副词_adv,A1,We sang together happily.,我们一起快乐地唱歌。,/təˈɡeðər/
+well,好地,副词_adv,A1,She sings well.,她唱得很好。,/wel/
+almost,几乎,副词_adv,A1,I am almost ready to go.,我几乎准备好要走了。,/ˈɔːlmoʊst/
+enough,足够地,副词_adv,A1,Is the soup warm enough?,汤够热吗？,/ɪˈnʌf/
+little,少量地,副词_adv,A1,Please speak a little more slowly.,请说得再慢一点。,/ˈlɪtl/
+much,很多地,副词_adv,A1,Thank you very much for your help.,非常感谢你的帮助。,/mʌtʃ/
+not,不,副词_adv,A1,I do not like cold weather.,我不喜欢寒冷的天气。,/nɑːt/
+only,仅仅,副词_adv,A1,I have only one dollar left.,我只剩下一个美元了。,/ˈoʊnli/
+quite,相当,副词_adv,A1,The food is quite good.,食物相当不错。,/kwaɪt/
+so,如此/所以,副词_adv,A1,She ran so fast that no one could catch her.,她跑得如此之快，没人能追上她。,/soʊ/
+very,非常,副词_adv,A1,She is very kind to everyone.,她对每个人都非常好。,/ˈveri/
+tomorrow,明天,副词_adv,A1,I will see you tomorrow.,我们明天见。,/təˈmɑːroʊ/
+yesterday,昨天,副词_adv,A1,It rained heavily yesterday.,昨天下了一场大雨。,/ˈjestərdeɪ/
+north,向北,副词_adv,A1,The birds fly north in the spring.,鸟儿在春天向北飞。,/nɔːrθ/
+south,向南,副词_adv,A1,The river flows south to the sea.,这条河向南流入大海。,/saʊθ/
+east,向东,副词_adv,A1,The sun rises in the east.,太阳从东方升起。,/iːst/
+west,向西,副词_adv,A1,They traveled west across the mountains.,他们向西穿越了山脉。,/west/
+ever,曾经,副词_adv,A2,Have you ever been to London?,你去过伦敦吗？,/ˈevər/
+forward,向前,副词_adv,A2,Move forward one step.,向前移动一步。,/ˈfɔːrwərd/
+even,甚至,副词_adv,A2,Even a child can understand this.,连小孩都能理解这个。,/ˈiːvən/
+a,一个,冠词_art,A1,There is a cat on the roof.,屋顶上有一只猫。,/ə/
+the,这/那,冠词_art,A1,The sun is brighter than the moon.,太阳比月亮更亮。,/ðə/
+than,比,连词_conj,A1,She is taller than her brother.,她比她的哥哥高。,/ðæn/
+and,和,连词_conj,A1,I like tea and coffee.,我喜欢茶和咖啡。,/ænd/
+because,因为,连词_conj,A1,He stayed home because it was raining.,他待在家里因为下雨了。,/bɪˈkɔːz/
+but,但是,连词_conj,A1,I like apples but not oranges.,我喜欢苹果但不喜欢橘子。,/bʌt/
+or,或者,连词_conj,A1,Do you want tea or coffee?,你想要茶还是咖啡？,/ɔːr/
+if,如果,连词_conj,A1,"If you study hard, you will get good marks.",如果你努力学习，你会取得好成绩。,/ɪf/
+though,虽然,连词_conj,A2,"Though it was raining, they went out.",虽然下着雨，他们还是出去了。,/ðoʊ/
+while,而/当...时,连词_conj,A2,She read a book while waiting for the bus.,她在等公交车的时候读了一本书。,/waɪl/
+all,所有,限定词_det,A1,All the students passed the test.,所有学生都通过了考试。,/ɔːl/
+any,任何,限定词_det,A1,Do you have any questions?,你有什么问题吗？,/ˈeni/
+every,每个,限定词_det,A1,Every child likes to play.,每个孩子都喜欢玩。,/ˈevri/
+no,没有,限定词_det,A1,There is no milk left in the bottle.,瓶子里没有牛奶了。,/noʊ/
+other,其他,限定词_det,A1,Do you have any other colors?,你还有其他颜色吗？,/ˈʌðər/
+some,一些,限定词_det,A1,There are some apples in the basket.,篮子里有一些苹果。,/sʌm/
+that,那个,限定词_det,A1,Look at that bird in the sky.,看天上的那只鸟。,/ðæt/
+this,这个,限定词_det,A1,This is my favorite book.,这是我最喜欢的书。,/ðɪs/
+such,这样的,限定词_det,A2,I have never seen such a big tree.,我从未见过这么大的树。,/sʌtʃ/
+please,请,感叹词_int,A1,Please open the door for me.,请帮我开门。,/pliːz/
+yes,是,感叹词_int,A1,"Yes, I will help you.",是的，我会帮你。,/jes/
+will,将,动词_aux,A1,I will be there at five o'clock.,我五点钟会到那里。,/wɪl/
+may,可以,动词_aux,A2,You may go out to play after you finish your work.,你完成工作后可以出去玩。,/meɪ/
+answer,答案,名词_pic,A1,Her answer was clearer than his.,她的答案比他的更清晰。,/ˈænsər/
+art,艺术,名词_pic,A1,There are many beautiful works of art in the museum.,博物馆里有许多美丽的艺术品。,/ɑːrt/
+business,生意/事务,名词_pic,A1,He runs a small business in the town.,他在镇上经营一家小生意。,/ˈbɪznəs/
+care,关心/照顾,名词_pic,A1,Take good care of yourself.,好好照顾自己。,/ker/
+change,变化/零钱,名词_pic,A1,There was a sudden change in the weather.,天气突然变了。,/tʃeɪndʒ/
+example,例子,名词_abs,A1,Give me an example of what you mean.,给我举个例子说明你的意思。,/ɪɡˈzæmpl/
+fact,事实,名词_abs,A1,Give me all the facts about the accident.,告诉我事故的所有事实。,/fækt/
+form,表格/形式,名词_pic,A1,Please fill out this form.,请填写这张表格。,/fɔːrm/
+idea,想法,名词_pic,A1,That is a great idea!,那是个好主意！,/aɪˈdiːə/
+language,语言,名词_pic,A1,English is a difficult language to learn.,英语是一门难学的语言。,/ˈlæŋɡwɪdʒ/
+money,钱,名词_pic,A1,I have no money left.,我没钱了。,/ˈmʌni/
+music,音乐,名词_pic,A1,I listen to music every day.,我每天都听音乐。,/ˈmjuːzɪk/
+name,名字,名词_pic,A1,My name is John.,我的名字是约翰。,/neɪm/
+news,新闻,名词_abs,A1,I watch the news every evening.,我每天晚上看新闻。,/nuːz/
+number,数字,名词_pic,A1,There is a number on the door.,门上有一个数字。,/ˈnʌmbər/
+part,部分,名词_pic,A1,Part of the building is very old.,建筑的一部分非常古老。,/pɑːrt/
+power,力量/电力,名词_pic,A1,The machine has great power.,这台机器有很大的力量。,/ˈpaʊər/
+question,问题,名词_abs,A1,Do you have any questions about the lesson?,你对这节课有什么问题吗？,/ˈkwestʃən/
+rest,休息/剩余部分,名词_abs,A1,You need to get some rest.,你需要休息一下。,/rest/
+rule,规则,名词_abs,A1,Follow the rules of the game.,遵守游戏规则。,/ruːl/
+song,歌曲,名词_pic,A1,She sang a song more sweetly than her sister.,她唱歌比她姐姐更甜美。,/sɔːŋ/
+sound,声音,名词_pic,A1,The sound of the bell is louder than the sound of the clock.,铃声比钟声更大。,/saʊnd/
+story,故事,名词_abs,A1,Give me a story about your childhood.,给我讲一个关于你童年的故事。,/ˈstɔːri/
+thing,事物/东西,名词_pic,A1,There are many things on the table.,桌子上有很多东西。,/θɪŋ/
+time,时间,名词_abs,A1,There is not enough time for the work.,没有足够的时间做这项工作。,/taɪm/
+use,使用,名词_pic,A1,The use of the machine is simple.,这台机器的使用很简单。,/juːs/
+way,方式/道路,名词_pic,A1,There is no easy way to do it.,没有简单的方法去做这件事。,/weɪ/
+weather,天气,名词_pic,A1,The weather today is colder than yesterday.,今天天气比昨天更冷。,/ˈweðər/
+word,单词,名词_pic,A1,The words on the page are clearly printed.,页面上的单词印得很清楚。,/wɜːrd/
+work,工作,名词_pic,A1,There is much work to do.,有很多工作要做。,/wɜːrk/
+amount,数量,名词_pic,A2,Put a small amount of salt in the soup.,在汤里放一小点盐。,/əˈmaʊnt/
+attention,注意力,名词_pic,A2,Pay attention to your teacher.,注意听老师讲课。,/əˈtenʃən/
+behaviour,行为,名词_pic,A2,His behavior is better than before.,他的行为比以前更好了。,/bɪˈheɪvjər/
+breath,呼吸,名词_pic,A2,Take a deep breath before you go under water.,潜入水前深呼吸一口。,/breθ/
+cause,原因,名词_abs,A2,The cause of the fire was an electrical fault.,火灾的原因是电路故障。,/kɔːz/
+chance,机会,名词_abs,A2,Give me a chance to explain.,给我一个解释的机会。,/tʃæns/
+comfort,舒适,名词_pic,A2,This chair gives more comfort than that one.,这把椅子比那把更舒适。,/ˈkʌmfərt/
+condition,条件/状况,名词_pic,A2,The car is in good condition.,车况良好。,/kənˈdɪʃən/
+control,控制,名词_pic,A2,Keep your emotions under control.,控制好你的情绪。,/kənˈtroʊl/
+damage,损坏,名词_pic,A2,The storm caused great damage to the houses.,暴风雨给房屋造成了严重损坏。,/ˈdæmɪdʒ/
+danger,危险,名词_pic,A2,There is danger on the icy roads.,结冰的道路上有危险。,/ˈdeɪndʒər/
+decision,决定,名词_abs,A2,She made a wise decision to study more.,她做了一个明智的决定：更努力地学习。,/dɪˈsɪʒən/
+degree,程度/学位,名词_pic,A2,There is a high degree of heat in the desert.,沙漠里有很高的热度。,/dɪˈɡriː/
+design,设计,名词_pic,A2,The design of the new building is more modern.,新建筑的设计更现代。,/dɪˈzaɪn/
+detail,细节,名词_pic,A2,Give me all the details of your trip.,告诉我你旅行的所有细节。,/ˈdiːteɪl/
+direction,方向,名词_abs,A2,Go in that direction for two miles.,朝那个方向走两英里。,/dəˈrekʃən/
+distance,距离,名词_abs,A2,The distance between the two towns is ten miles.,两个镇之间的距离是十英里。,/ˈdɪstəns/
+doubt,怀疑,名词_pic,A2,There is no doubt that what she said is true.,毫无疑问她在说真话。,/daʊt/
+education,教育,名词_abs,A2,Education is important for every child.,教育对每个孩子都很重要。,/ˌedʒuˈkeɪʃən/
+error,错误,名词_abs,A2,She made an error in her calculation.,她在计算中犯了一个错误。,/ˈerər/
+event,事件,名词_pic,A2,The main event of the day was the race.,当天的主要活动是赛跑。,/ɪˈvent/
+experience,经验/经历,名词_abs,A2,She has more experience than her younger brother.,她比她弟弟更有经验。,/ɪkˈspɪriəns/
+force,力量,名词_pic,A2,He pushed the door with great force.,他用很大的力气推门。,/fɔːrs/
+heat,热量/高温,名词_pic,A2,The heat of the sun is stronger at noon.,中午的阳光更热。,/hiːt/
+history,历史,名词_pic,A2,History is my favorite subject.,历史是我最喜欢的科目。,/ˈhɪstri/
+industry,工业/行业,名词_abs,A2,Tourism is a growing industry.,旅游业是一个正在发展的行业。,/ˈɪndəstri/
+interest,兴趣/利息,名词_abs,A2,She has a great interest in music.,她对音乐有浓厚的兴趣。,/ˈɪntrəst/
+knowledge,知识,名词_abs,A2,Knowledge is more important than money.,知识比金钱更重要。,/ˈnɑːlɪdʒ/
+law,法律,名词_abs,A2,You must obey the law.,你必须遵守法律。,/lɔː/
+level,水平/级别,名词_pic,A2,This is a higher level of difficulty.,这是更高难度的水平。,/ˈlevl/
+memory,记忆,名词_abs,A2,She has a better memory than her brother.,她的记忆力比她哥哥更好。,/ˈmeməri/
+mind,头脑/想法,名词_pic,A2,She has a very sharp mind.,她头脑非常敏锐。,/maɪnd/
+need,需要,名词_abs,A2,There is a need for more doctors.,需要更多的医生。,/niːd/
+noise,噪音,名词_abs,A2,The noise of the traffic is louder in the morning.,早上的交通噪音更大。,/nɔɪz/
+offer,提议/报价,名词_pic,A2,Thank you for your kind offer.,谢谢你的好意。,/ˈɔːfər/
+opinion,意见,名词_pic,A2,"In my opinion, this is the best book.",在我看来，这是最好的书。,/əˈpɪnjən/
+order,顺序/命令,名词_pic,A2,Put the words in the right order.,把单词按正确的顺序排列。,/ˈɔːrdər/
+peace,和平,名词_abs,A2,We hope for world peace.,我们期盼世界和平。,/piːs/
+point,点/要点,名词_pic,A2,You have a good point.,你说得有道理。,/pɔɪnt/
+price,价格,名词_pic,A2,What is the price of this book?,这本书的价格是多少？,/praɪs/
+purpose,目的,名词_abs,A2,What is the purpose of your visit?,你这次来的目的是什么？,/ˈpɜːrpəs/
+quality,质量/品质,名词_pic,A2,This cloth has good quality.,这块布料质量很好。,/ˈkwɑːləti/
+reason,理由,名词_abs,A2,Give me a good reason for your decision.,给我一个你做决定的好理由。,/ˈriːzən/
+record,记录/唱片,名词_pic,A2,He broke the world record for running.,他打破了世界跑步纪录。,/ˈrekərd/
+relation,关系,名词_abs,A2,The relation between the two brothers is good.,两兄弟之间的关系很好。,/rɪˈleɪʃən/
+religion,宗教,名词_abs,A2,There are many different religions in the world.,世界上有许多不同的宗教。,/rɪˈlɪdʒən/
+respect,尊重,名词_pic,A2,I have great respect for my teachers.,我非常尊重我的老师。,/rɪˈspekt/
+science,科学,名词_abs,A2,Science is a fascinating subject.,科学是一门迷人的学科。,/ˈsaɪəns/
+sense,感官/感觉,名词_pic,A2,My sense of smell is very good.,我的嗅觉非常好。,/sens/
+society,社会,名词_abs,A2,We live in a modern society.,我们生活在一个现代社会里。,/səˈsaɪəti/
+sort,种类,名词_pic,A2,What sort of music do you like best?,你最喜欢哪种音乐？,/sɔːrt/
+space,空间,名词_pic,A2,There is not enough space in this room.,这个房间空间不够。,/speɪs/
+step,步骤/台阶,名词_pic,A2,Take one step forward.,向前迈一步。,/step/
+suggestion,建议,名词_abs,A2,Thanks for your helpful suggestion.,谢谢你的有益建议。,/səˈdʒestʃən/
+support,支持,名词_abs,A2,Thank you for your support during the difficult time.,感谢你在困难时期给予的支持。,/səˈpɔːrt/
+system,系统,名词_pic,A2,The system is working well.,系统运转良好。,/ˈsɪstəm/
+test,测试/考试,名词_pic,A2,She passed her driving test on the first attempt.,她第一次尝试就通过了驾照考试。,/test/
+thought,想法/思想,名词_pic,A2,I just had a thought about our trip.,我刚想到了一个关于我们旅行的事。,/θɔːt/
+trouble,麻烦,名词_pic,A2,"He is in trouble, but his brother is in more trouble.",他有麻烦，但他的兄弟麻烦更大。,/ˈtrʌbl/
+view,视野/看法,名词_pic,A2,The view from my window is more beautiful than yours.,我窗外的景色比你的更美。,/vjuː/
+voice,声音,名词_pic,A2,Her voice is sweet and she sings sweetly.,她的声音甜美，她唱得很甜美。,/vɔɪs/
+war,战争,名词_abs,A2,The two countries are at war.,这两个国家在交战。,/wɔːr/
+writing,写作,名词_pic,A2,His writing is clearer than his brother's.,他的字写得比他兄弟更清楚。,/ˈraɪtɪŋ/
+account,账户,名词_pic,B1,There are two accounts in the bank.,银行里有两个账户。,/əˈkaʊnt/
+act,行为/行动,名词_pic,B1,Her act of kindness made everyone happy.,她的善举让每个人都开心。,/ækt/
+addition,增加/加法,名词_pic,B1,The addition of sugar makes the cake sweeter.,加糖让蛋糕更甜。,/əˈdɪʃən/
+advertisement,广告,名词_pic,B1,There are many advertisements on the street.,街上有许多广告。,/ˌædvərˈtaɪzmənt/
+agreement,协议,名词_pic,B1,The two parties made an agreement.,双方达成了一项协议。,/əˈɡriːmənt/
+amusement,娱乐,名词_pic,B1,Reading is a good amusement.,阅读是一种很好的娱乐。,/əˈmjuːzmənt/
+approval,批准,名词_abs,B1,You need your parents' approval to go.,你需要父母的批准才能去。,/əˈpruːvəl/
+argument,争论/论据,名词_abs,B1,They had an argument about the price.,他们就价格问题发生了争论。,/ˈɑːrɡjumənt/
+attraction,吸引力/景点,名词_pic,B1,The main attraction of the park is the lake.,这个公园的主要景点是湖泊。,/əˈtrækʃən/
+authority,权威/当局,名词_pic,B1,The local authorities are responsible for safety.,地方当局负责安全工作。,/əˈθɔːrəti/
+balance,平衡,名词_pic,B1,Keep your balance on the bike.,在自行车上保持平衡。,/ˈbæləns/
+base,底部/基地,名词_pic,B1,The base of the mountain is wide.,山脚很宽。,/beɪs/
+belief,信念,名词_pic,B1,I have a strong belief in justice.,我坚信正义。,/bɪˈliːf/
+comparison,比较,名词_pic,B1,There is no comparison between the two cars.,这两辆车没法比。,/kəmˈpærɪsən/
+competition,竞争,名词_pic,B1,The competition was stronger than last year.,今年的竞争比去年更激烈。,/ˌkɑːmpəˈtɪʃən/
+connection,连接,名词_pic,B1,The internet connection is faster now.,现在网络连接更快了。,/kəˈnekʃən/
+credit,信用/学分,名词_abs,B1,He has good credit at the bank.,他在银行有良好的信用。,/ˈkredɪt/
+crime,犯罪,名词_pic,B1,Crime is less common in small towns.,小城镇里犯罪较少见。,/kraɪm/
+current,电流/水流,名词_pic,B1,The current of the river is stronger after the rain.,雨后河里的水流更急了。,/ˈkɜːrənt/
+debt,债务,名词_pic,B1,He is in debt because he borrowed too much money.,他因为借了太多钱而负债。,/det/
+desire,渴望,名词_abs,B1,He has a strong desire to learn English.,他非常渴望学习英语。,/dɪˈzaɪər/
+development,发展,名词_abs,B1,The development of the town was very fast.,这座城镇的发展非常快。,/dɪˈveləpmənt/
+discovery,发现,名词_abs,B1,The discovery of oil made the country rich.,石油的发现让这个国家富裕起来。,/dɪˈskʌvəri/
+disease,疾病,名词_pic,B1,Heart disease is more common in older people.,心脏病在老年人中更常见。,/dɪˈziːz/
+division,分割/部门,名词_pic,B1,The division of the money was unequal.,钱分得不均匀。,/dɪˈvɪʒən/
+effect,效果/影响,名词_abs,B1,The medicine had a good effect on the patient.,药物对病人产生了良好的效果。,/ɪˈfekt/
+existence,存在,名词_abs,B1,Do you believe in the existence of ghosts?,你相信鬼魂的存在吗？,/ɪɡˈzɪstəns/
+fiction,小说,名词_pic,B1,He prefers reading fiction to non-fiction.,比起非小说类，他更喜欢读小说。,/ˈfɪkʃən/
+growth,生长/增长,名词_pic,B1,The growth of the plant was faster in summer.,夏天植物长得更快。,/ɡroʊθ/
+harmony,和谐,名词_pic,B1,They live in harmony with their neighbors.,他们与邻居和睦相处。,/ˈhɑːrməni/
+hearing,听力,名词_pic,B1,His hearing is worse than last year.,他的听力比去年更差了。,/ˈhɪrɪŋ/
+humour,幽默,名词_abs,B1,His humour makes everyone laugh.,他的幽默让所有人发笑。,/ˈhjuːmər/
+increase,增加,名词_abs,B1,There was a large increase in sales.,销售额大幅增长。,/ˈɪŋkriːs/
+insurance,保险,名词_pic,B1,He has health insurance.,他有健康保险。,/ɪnˈʃʊrəns/
+invention,发明,名词_pic,B1,The telephone was a great invention.,电话是一项伟大的发明。,/ɪnˈvenʃən/
+learning,学习,名词_abs,B1,Learning a language takes time.,学习一门语言需要时间。,/ˈlɜːrnɪŋ/
+limit,限制,名词_abs,B1,There is a speed limit on this road.,这条路上有速度限制。,/ˈlɪmɪt/
+loss,损失,名词_abs,B1,The company had a big loss last year.,公司去年亏损严重。,/lɔːs/
+mass,质量/大量,名词_pic,B1,A large mass of people gathered in the square.,一大群人聚集在广场上。,/mæs/
+measure,测量/措施,名词_abs,B1,We need to take safety measures.,我们需要采取安全措施。,/ˈmeʒər/
+motion,运动,名词_pic,B1,The motion of the car made her feel sick.,车的晃动让她感到恶心。,/ˈmoʊʃən/
+observation,观察,名词_abs,B1,The doctor kept the patient under observation.,医生对病人进行观察。,/ˌɑːbzərˈveɪʃən/
+operation,手术/操作,名词_abs,B1,The operation took three hours.,手术花了三个小时。,/ˌɑːpəˈreɪʃən/
+payment,付款,名词_abs,B1,Payment is due at the end of the month.,月底是付款截止日。,/ˈpeɪmənt/
+position,位置/职位,名词_abs,B1,He applied for a new position at the company.,他在公司申请了一个新职位。,/pəˈzɪʃən/
+process,过程,名词_abs,B1,The process of making cheese takes a long time.,制作奶酪的过程需要很长时间。,/ˈprɑːses/
+profit,利润,名词_abs,B1,The company made a profit this year.,公司今年盈利了。,/ˈprɑːfɪt/
+property,财产/房产,名词_abs,B1,This property is worth a lot of money.,这处房产价值很多钱。,/ˈprɑːpərti/
+punishment,惩罚,名词_abs,B1,The punishment for the crime was severe.,对这项罪行的惩罚很严厉。,/ˈpʌnɪʃmənt/
+range,范围/山脉,名词_pic,B1,The price range is between ten and twenty dollars.,价格范围在十到二十美元之间。,/reɪndʒ/
+rate,比率/速度,名词_abs,B1,The rate of growth is higher this year.,今年的增长率更高。,/reɪt/
+reaction,反应,名词_pic,B1,Her reaction was faster than mine.,她的反应比我更快。,/riˈækʃən/
+request,请求,名词_abs,B1,They made a request for more time.,他们请求更多的时间。,/rɪˈkwest/
+reward,奖励,名词_abs,B1,There is a reward for finding the lost dog.,找到丢失的狗有奖励。,/rɪˈwɔːrd/
+rhythm,节奏,名词_abs,B1,The music has a strong rhythm.,这音乐节奏感很强。,/ˈrɪðəm/
+scale,规模/尺度,名词_abs,B1,The scale of the problem is very large.,问题的规模很大。,/skeɪl/
+selection,选择,名词_abs,B1,There is a wide selection of books in the library.,图书馆里有各种各样的书可供选择。,/sɪˈlekʃən/
+self,自我,名词_abs,B1,He has a strong sense of self.,他有很强的自我意识。,/self/
+sex,性别,名词_abs,B1,Please write your name and sex on the form.,请在表格上填写你的姓名和性别。,/seks/
+statement,声明/陈述,名词_abs,B1,The police made a statement about the accident.,警方就事故发表了一份声明。,/ˈsteɪtmənt/
+structure,结构,名词_abs,B1,The structure of the building is very strong.,这座建筑的结构非常坚固。,/ˈstrʌktʃər/
+substance,物质,名词_abs,B1,Water is a liquid substance.,水是一种液体物质。,/ˈsʌbstəns/
+tax,税,名词_abs,B1,The tax on goods is higher than before.,商品的税比以前更高了。,/tæks/
+teaching,教学,名词_abs,B1,Teaching is a difficult but rewarding job.,教学是一份困难但有价值的工作。,/ˈtiːtʃɪŋ/
+tendency,倾向,名词_abs,B1,He has a tendency to arrive late.,他有迟到的倾向。,/ˈtendənsi/
+theory,理论,名词_abs,B1,Do you believe in this theory?,你相信这个理论吗？,/ˈθiːəri/
+trade,贸易,名词_abs,B1,The two countries do more trade now than before.,这两个国家现在比过去贸易更多。,/treɪd/
+transport,运输,名词_pic,B1,The transport of goods by sea is slower than by air.,海上运输货物比空运更慢。,/ˈtrænspɔːrt/
+unit,单位,名词_pic,B1,There are twelve units in the book.,这本书有十二个单元。,/ˈjuːnɪt/
+value,价值,名词_abs,B1,The value of this ring is higher than the value of that one.,这枚戒指的价值比那枚更高。,/ˈvæljuː/
+verse,诗歌,名词_pic,B1,The verses of this poem are beautifully written.,这首诗的章节写得优美。,/vɜːrs/
+waste,浪费,名词_abs,B1,It is a waste of time to do it again.,再做一次是浪费时间。,/weɪst/
+adjustment,调整,名词_abs,B2,The adjustment of the machine was done quickly.,机器的调整很快就完成了。,/əˈdʒʌstmənt/
+apparatus,仪器/设备,名词_pic,B2,The new apparatus works better than the old one.,新设备比旧的更好用。,/ˌæpəˈrætəs/
+destruction,破坏,名词_abs,B2,The war brought destruction to the city.,战争给这座城市带来了毁灭。,/dɪˈstrʌkʃən/
+digestion,消化,名词_abs,B2,Good digestion is important for health.,良好的消化对健康很重要。,/daɪˈdʒestʃən/
+distribution,分配/分布,名词_pic,B2,The distribution of food was fair to everyone.,食物的分配对每个人都很公平。,/ˌdɪstrɪˈbjuːʃən/
+expansion,扩张,名词_abs,B2,The expansion of the city took many years.,城市的扩张花了很多年。,/ɪkˈspænʃən/
+impulse,冲动,名词_abs,B2,He bought the car on impulse.,他一时冲动买下了那辆车。,/ˈɪmpʌls/
+prose,散文,名词_pic,B2,He writes beautiful prose.,他写优美的散文。,/proʊz/
+help,帮助,名词_abs,A1,Thank you for your kind help.,谢谢你的热心帮助。,/help/
+look,看/表情,名词_pic,A1,Take a look at this picture.,看看这张照片。,/lʊk/
+run,跑步,名词_pic,A1,She goes for a run every morning.,她每天早上跑步。,/rʌn/
+sleep,睡眠,名词_abs,A1,I need eight hours of sleep every night.,我每晚需要八小时的睡眠。,/sliːp/
+smile,微笑,名词_pic,A1,She has a beautiful smile.,她的微笑很美丽。,/smaɪl/
+start,开始,名词_pic,A1,We made an early start on our journey.,我们很早就开始了旅程。,/stɑːrt/
+stop,停止/车站,名词_pic,A1,The bus came to a sudden stop.,公共汽车突然停了下来。,/stɑːp/
+talk,谈话,名词_abs,A1,We had a long talk about our plans.,我们就计划进行了长时间的交谈。,/tɔːk/
+turn,转弯/轮次,名词_pic,A1,It is your turn to go.,轮到你去了。,/tɜːrn/
+walk,走路,名词_pic,A1,She takes a walk every day.,她每天散步。,/wɔːk/
+cough,咳嗽,名词_pic,A2,He has a bad cough.,他咳嗽得很厉害。,/kɔːf/
+cry,哭,名词_pic,A2,The baby's cry was louder than the dog's bark.,婴儿的哭声比狗叫声更大。,/kraɪ/
+discussion,讨论,名词_abs,A2,We had a long discussion about the problem.,我们就这个问题进行了长时间的讨论。,/dɪˈskʌʃən/
+driving,驾驶,名词_pic,A2,Driving at night is harder than driving in the day.,晚上开车比白天更难。,/ˈdraɪvɪŋ/
+fall,跌倒/秋天,名词_pic,A2,He had a bad fall from the ladder.,他从梯子上重重地摔了下来。,/fɔːl/
+fight,打架/斗争,名词_pic,A2,There was a fight between the two boys.,两个男孩之间打了一架。,/faɪt/
+flight,飞行,名词_pic,A2,My flight to London was delayed.,我飞往伦敦的航班延误了。,/flaɪt/
+journey,旅行,名词_pic,A2,The train journey was very long.,火车旅程很长。,/ˈdʒɜːrni/
+jump,跳跃,名词_pic,A2,The cat made a high jump.,猫跳得很高。,/dʒʌmp/
+kick,踢,名词_pic,A2,He gave the ball a hard kick.,他用力踢了一下球。,/kɪk/
+kiss,吻,名词_pic,A2,She gave her mother a soft kiss.,她轻轻地吻了一下母亲。,/kɪs/
+laugh,笑声,名词_pic,A2,His laugh is louder than hers.,他的笑声比她的更大。,/læf/
+move,移动,名词_pic,A2,It was a smart move to change jobs.,换工作是个明智之举。,/muːv/
+play,戏剧/游戏,名词_pic,A2,We saw a play at the theater.,我们在剧院看了一场戏。,/pleɪ/
+pull,拉/引力,名词_pic,A2,He gave the door a hard pull.,他用力拉了一下门。,/pʊl/
+push,推,名词_pic,A2,Give the door a push to open it.,推一下门把它打开。,/pʊʃ/
+reading,阅读,名词_abs,A2,Reading is a good way to learn new words.,阅读是学习新单词的好方法。,/ˈriːdɪŋ/
+shake,摇动/握手,名词_pic,A2,Give the bottle a shake before you open it.,打开前摇一摇瓶子。,/ʃeɪk/
+swim,游泳,名词_pic,A2,Let's go for a swim in the lake.,我们去湖里游泳吧。,/swɪm/
+touch,触摸,名词_pic,A2,A soft touch is better than a hard one.,轻轻的触摸比用力的更好。,/tʌtʃ/
+wash,洗,名词_abs,A2,The washing of the car takes a long time.,洗车需要很长时间。,/wɑːʃ/
+attack,攻击,名词_abs,B1,The army made a sudden attack at night.,军队在夜间发起了突然攻击。,/əˈtæk/
+attempt,尝试,名词_pic,B1,She passed the test on her first attempt.,她第一次尝试就通过了考试。,/əˈtempt/
+bite,咬,名词_pic,B1,The dog gave a bite to his leg.,狗咬了他的腿。,/baɪt/
+blow,打击,名词_pic,B1,He received a hard blow on the head.,他的头部受到了重击。,/bloʊ/
+burn,烧伤/燃烧,名词_pic,B1,The burn on his arm was more painful than the cut.,他手臂上的烧伤比伤口更疼。,/bɜːrn/
+exchange,交换,名词_abs,B1,There was an exchange of gifts between the two families.,两个家庭之间交换了礼物。,/ɪksˈtʃeɪndʒ/
+fold,折叠,名词_pic,B1,Make a fold in the paper along the line.,沿着线在纸上折一下。,/foʊld/
+grip,紧握,名词_pic,B1,He tightened his grip on the rope.,他握紧了绳子。,/ɡrɪp/
+print,印刷/打印,名词_pic,B1,The print of the picture is very clear.,这幅画的印刷非常清晰。,/prɪnt/
+protest,抗议,名词_abs,B1,There was a protest against the new law.,有人抗议新法律。,/ˈproʊtest/
+rub,摩擦,名词_pic,B1,Give your sore back a rub.,揉一揉你酸痛的背。,/rʌb/
+slip,滑倒/纸条,名词_pic,B1,She had a slip on the wet floor.,她在湿滑的地板上滑倒了。,/slɪp/
+smash,破碎/猛击,名词_pic,B1,The smash of the glass woke everyone up.,玻璃破碎的声音把所有人都吵醒了。,/smæʃ/
+sneeze,喷嚏,名词_pic,B1,His sneeze was louder than the noise of the car.,他的喷嚏声比汽车声还大。,/sniːz/
+stretch,伸展,名词_pic,B1,She did a stretch before running.,她在跑步前做了伸展运动。,/stretʃ/
+trick,把戏/诡计,名词_pic,B1,The dog did the trick quickly.,这只狗很快地完成了把戏。,/trɪk/
+twist,扭曲,名词_pic,B1,Give the cap a twist.,拧一下盖子。,/twɪst/
+burst,爆裂,名词_pic,B2,There was a burst of laughter in the room.,房间里爆发出一阵笑声。,/bɜːrst/
+crush,压碎,名词_pic,B2,The crush of the crowd was dangerous.,人群的拥挤很危险。,/krʌʃ/
+animal,动物,名词_pic,A1,There are many animals on the farm.,农场里有许多动物。,/ˈænɪml/
+bird,鸟,名词_abs,A1,The birds are singing happily.,鸟儿们在快乐地歌唱。,/bɜːrd/
+cat,猫,名词_pic,A1,The cats are sleeping on the bed.,猫在床上睡觉。,/kæt/
+cow,牛,名词_pic,A1,The cows are eating grass in the field.,牛在田野里吃草。,/kaʊ/
+dog,狗,名词_pic,A1,The dogs are running fast.,狗们跑得很快。,/dɔːɡ/
+fish,鱼,名词_pic,A1,The fish are swimming in the water.,鱼在水里游泳。,/fɪʃ/
+horse,马,名词_pic,A1,The horses are running fast.,马在飞快地奔跑。,/hɔːrs/
+pig,猪,名词_pic,A1,The pigs are eating noisily.,猪在大声地吃东西。,/pɪɡ/
+sheep,羊,名词_pic,A1,There are many sheep in the field.,田野里有许多羊。,/ʃiːp/
+insect,昆虫,名词_pic,A2,There are insects in the garden.,花园里有昆虫。,/ˈɪnsekt/
+ant,蚂蚁,名词_pic,A2,The ants are walking slowly across the sand.,蚂蚁在沙地上缓慢地爬行。,/ænt/
+bee,蜜蜂,名词_pic,A2,The bees are flying quickly from flower to flower.,蜜蜂在花丛间快速飞舞。,/biː/
+fly,苍蝇,名词_pic,A2,There are flies on the food.,苍蝇在食物上。,/flaɪ/
+goat,山羊,名词_pic,A2,The goats are eating the grass.,山羊在吃草。,/ɡoʊt/
+monkey,猴子,名词_pic,A2,The monkeys are jumping higher than the cats.,猴子们跳得比猫更高。,/ˈmʌŋki/
+rat,老鼠,名词_pic,A2,The rats are running fast.,老鼠们跑得很快。,/ræt/
+snake,蛇,名词_pic,A2,The snakes are moving slowly through the grass.,蛇在草丛中缓慢移动。,/sneɪk/
+worm,虫,名词_pic,A2,The worms are moving slowly in the earth.,虫子在土里缓慢移动。,/wɜːrm/
+fowl,家禽,名词_pic,B1,The fowls are in the garden.,家禽在花园里。,/faʊl/
+back,背部/后面,名词_pic,A1,My back hurts after sitting too long.,坐了太久我的背很疼。,/bæk/
+body,身体,名词_pic,A1,Wash your body with soap.,用肥皂洗身体。,/ˈbɑːdi/
+arm,手臂,名词_pic,A1,His arms are longer than his legs.,他的手臂比腿更长。,/ɑːrm/
+ear,耳朵,名词_pic,A1,The dogs have big ears.,这些狗有大耳朵。,/ɪr/
+eye,眼睛,名词_pic,A1,She has blue eyes.,她有一双蓝眼睛。,/aɪ/
+face,脸,名词_pic,A1,Wash your faces before eating.,吃饭前洗洗脸。,/feɪs/
+finger,手指,名词_pic,A1,She has ten fingers.,她有十根手指。,/ˈfɪŋɡər/
+foot,脚,名词_pic,A1,My feet are cold.,我的脚很冷。,/fʊt/
+hair,头发,名词_pic,A1,The women have long black hair.,这些女人有一头长长的黑发。,/her/
+hand,手,名词_pic,A1,Wash your hands before eating.,吃饭前洗手。,/hænd/
+head,头,名词_pic,A1,The men have pain in their heads.,男人们头疼。,/hed/
+leg,腿,名词_pic,A1,The table has four legs.,这张桌子有四条腿。,/leɡ/
+mouth,嘴巴,名词_pic,A1,Open your mouths widely.,张大你们的嘴巴。,/maʊθ/
+nose,鼻子,名词_pic,A1,The dogs have wet noses.,这些狗的鼻子是湿的。,/noʊz/
+bone,骨头,名词_pic,A2,The dog has two bones.,这只狗有两根骨头。,/boʊn/
+brain,大脑,名词_pic,A2,Human brains are larger than those of most animals.,人类的大脑比大多数动物更大。,/breɪn/
+chest,胸部/箱子,名词_pic,A2,The chests are full of old clothes.,箱子里装满了旧衣服。,/tʃest/
+chin,下巴,名词_pic,A2,The men have cuts on their chins.,男人们下巴上有伤口。,/tʃɪn/
+heart,心脏,名词_pic,A2,Their hearts are beating fast.,他们的心跳得很快。,/hɑːrt/
+knee,膝盖,名词_pic,A2,His knees hurt more than his feet.,他的膝盖比脚更疼。,/niː/
+lip,嘴唇,名词_pic,A2,The women put color on their lips.,女人们在嘴唇上涂了颜色。,/lɪp/
+nail,指甲/钉子,名词_pic,A2,Her nails are longer than her fingers.,她的指甲比手指更长。,/neɪl/
+neck,脖子,名词_pic,A2,The necks of the bottles are long.,这些瓶子的瓶颈很长。,/nek/
+skin,皮肤,名词_pic,A2,His skin is darker than hers.,他的皮肤比她的更黑。,/skɪn/
+stomach,胃,名词_pic,A2,Their stomachs are full.,他们的胃很饱。,/ˈstʌmək/
+tail,尾巴,名词_pic,A2,The tails of the cats are long.,猫的尾巴很长。,/teɪl/
+throat,喉咙,名词_pic,A2,Their throats are dry.,他们的喉咙很干。,/θroʊt/
+thumb,拇指,名词_pic,A2,His thumbs are thicker than his fingers.,他的拇指比手指更粗。,/θʌm/
+toe,脚趾,名词_pic,A2,His toes are shorter than his fingers.,他的脚趾比手指更短。,/toʊ/
+tongue,舌头,名词_pic,A2,The dogs put their tongues out.,狗们伸出舌头。,/tʌŋ/
+tooth,牙齿,名词_pic,A2,Her teeth are whiter than mine.,她的牙齿比我的更白。,/tuːθ/
+wing,翅膀,名词_pic,A2,The wings of the bird are longer than its body.,鸟的翅膀比它的身体更长。,/wɪŋ/
+horn,角,名词_pic,B1,The goats have two horns each.,每只山羊有两只角。,/hɔːrn/
+muscle,肌肉,名词_pic,B1,His muscles are stronger than mine.,他的肌肉比我的更强壮。,/ˈmʌsl/
+nerve,神经,名词_pic,B1,The nerves in his legs are more sensitive than those in his arms.,他腿上的神经比手臂上的更敏感。,/nɜːrv/
+shirt,衬衫,名词_pic,A1,The shirts are white.,这些衬衫是白色的。,/ʃɜːrt/
+shoe,鞋子,名词_pic,A1,Put your shoes on quickly.,快穿上你的鞋子。,/ʃuː/
+skirt,裙子,名词_pic,A1,The skirts are hanging on the line.,裙子挂在晾衣绳上。,/skɜːrt/
+sock,短袜,名词_pic,A1,There are socks on the floor.,地板上有袜子。,/sɑːk/
+trousers,裤子,名词_pic,A1,The trousers are on the chair.,裤子在椅子上。,/ˈtraʊzərz/
+stocking,长袜,名词_pic,A2,The stockings are made of silk.,这些长袜是丝绸做的。,/ˈstɑːkɪŋ/
+birth,出生,名词_abs,A2,The birth of the baby made the family happy.,婴儿的出生让全家人开心。,/bɜːrθ/
+death,死亡,名词_pic,A2,The death of the old tree made the garden look different.,老树的枯死让花园看起来不一样了。,/deθ/
+meeting,会议,名词_abs,A2,There is a meeting at three o'clock.,三点钟有个会议。,/ˈmiːtɪŋ/
+feeling,感觉,名词_abs,A1,I have a good feeling about this plan.,我对这个计划感觉良好。,/ˈfiːlɪŋ/
+hope,希望,名词_abs,A1,There is always hope for the future.,对未来总是有希望的。,/hoʊp/
+love,爱,名词_abs,A1,She has great love for her family.,她非常爱她的家人。,/lʌv/
+fear,恐惧,名词_pic,A2,She has a great fear of spiders.,她非常害怕蜘蛛。,/fɪr/
+hate,憎恨,名词_abs,A2,He looked at his enemy with hate.,他满怀仇恨地看着敌人。,/heɪt/
+pain,疼痛,名词_pic,A2,I have a pain in my back.,我背疼。,/peɪn/
+pleasure,快乐,名词_pic,A2,It was a pleasure to meet you.,很高兴认识你。,/ˈpleʒər/
+surprise,惊讶,名词_pic,A2,The news came as a great surprise to everyone.,这个消息让所有人都感到非常惊讶。,/sərˈpraɪz/
+regret,遗憾,名词_abs,B1,She expressed regret for her mistake.,她为自己的错误感到遗憾。,/rɪˈɡret/
+shame,羞耻,名词_abs,B1,He felt great shame for his actions.,他为自己的行为感到非常羞耻。,/ʃeɪm/
+shock,震惊,名词_abs,B1,The news of the accident was a great shock to everyone.,事故的消息让所有人都感到震惊。,/ʃɑːk/
+disgust,厌恶,名词_abs,B2,He looked at the dirty floor with disgust.,他厌恶地看着肮脏的地板。,/dɪsˈɡʌst/
+bread,面包,名词_pic,A1,There is a loaf of bread on the table.,桌子上有一条面包。,/bred/
+butter,黄油,名词_pic,A1,Spread butter on the bread.,在面包上涂黄油。,/ˈbʌtər/
+drink,饮料,名词_pic,A1,Can I have a drink of water?,我能喝杯水吗？,/drɪŋk/
+food,食物,名词_pic,A1,There is enough food for everyone.,有足够的食物给每个人。,/fuːd/
+fruit,水果,名词_pic,A1,There is fresh fruit in the bowl.,碗里有新鲜水果。,/fruːt/
+meal,一餐,名词_pic,A1,Breakfast is the first meal of the day.,早餐是一天中的第一餐。,/miːl/
+meat,肉,名词_pic,A1,There is meat on the plate.,盘子里有肉。,/miːt/
+milk,牛奶,名词_pic,A1,There is milk in the glass.,杯子里有牛奶。,/mɪlk/
+rice,大米,名词_abs,A1,Rice is a common food in many countries.,大米是许多国家的常见食物。,/raɪs/
+salt,盐,名词_pic,A1,Put some salt on the meat.,在肉上放些盐。,/sɔːlt/
+soup,汤,名词_pic,A1,The soup is hotter than the bread.,汤比面包更热。,/suːp/
+sugar,糖,名词_pic,A1,Do you take sugar in your coffee?,你咖啡里加糖吗？,/ˈʃʊɡər/
+apple,苹果,名词_pic,A1,There are three apples in the basket.,篮子里有三个苹果。,/ˈæpl/
+cake,蛋糕,名词_pic,A1,She made three cakes for the party.,她为派对做了三个蛋糕。,/keɪk/
+cheese,奶酪,名词_pic,A1,There are two kinds of cheese on the table.,桌子上有两种奶酪。,/tʃiːz/
+egg,蛋,名词_pic,A1,There are ten eggs in the basket.,篮子里有十个鸡蛋。,/eɡ/
+orange,橙子/橙色,名词_pic,A1,The oranges are sweeter than the apples.,这些橙子比苹果更甜。,/ˈɔːrɪndʒ/
+potato,土豆,名词_pic,A1,The potatoes are in the basket.,土豆在篮子里。,/pəˈteɪtoʊ/
+wine,葡萄酒,名词_pic,A2,There is wine in the bottle.,瓶子里有葡萄酒。,/waɪn/
+berry,浆果,名词_pic,A2,These berries are sweeter than those.,这些浆果比那些更甜。,/ˈberi/
+nut,坚果,名词_pic,A2,There are nuts in the bowl.,碗里有坚果。,/nʌt/
+jelly,果冻,名词_pic,B1,The jelly is softer than the cake.,果冻比蛋糕更软。,/ˈdʒeli/
+produce,农产品,名词_pic,B1,The farm produce is fresh and healthy.,农场的农产品新鲜又健康。,/ˈprɑːduːs/
+table,桌子,名词_pic,A1,There are two tables in the room.,房间里有两张桌子。,/ˈteɪbl/
+company,公司/陪伴,名词_abs,A1,She works for a big company.,她为一家大公司工作。,/ˈkʌmpəni/
+family,家庭,名词_pic,A1,There are five people in my family.,我家有五口人。,/ˈfæməli/
+group,小组/团体,名词_abs,A1,The students worked in small groups.,学生们分成小组学习。,/ɡruːp/
+government,政府,名词_abs,A2,The government made a new law.,政府制定了一项新法律。,/ˈɡʌvərnmənt/
+nation,国家,名词_abs,A2,The nation celebrated its independence.,这个国家庆祝独立。,/ˈneɪʃən/
+army,军队,名词_abs,A2,The army is more powerful now than before.,军队现在比以前更强大。,/ˈɑːrmi/
+committee,委员会,名词_abs,B1,The committee made a decision quickly.,委员会很快做出了决定。,/kəˈmɪti/
+organization,组织,名词_abs,B1,She works for a non-profit organization.,她为一个非营利组织工作。,/ˌɔːrɡənəˈzeɪʃən/
+air,空气,名词_pic,A1,There is no air in the empty bottle.,空瓶子里没有空气。,/er/
+cloth,布料,名词_pic,A1,This cloth is softer than that one.,这块布料比那块更软。,/klɔːθ/
+glass,玻璃/杯子,名词_pic,A1,The window is made of glass.,窗户是玻璃做的。,/ɡlæs/
+ice,冰,名词_pic,A1,There is ice on the lake in winter.,冬天湖面上有冰。,/aɪs/
+paint,油漆/颜料,名词_pic,A1,The paint is still wet.,油漆还没干。,/peɪnt/
+paper,纸,名词_abs,A1,I need a piece of paper.,我需要一张纸。,/ˈpeɪpər/
+soap,肥皂,名词_pic,A1,Wash your hands with soap and water.,用肥皂和水洗手。,/soʊp/
+stone,石头,名词_pic,A1,The boy threw a stone into the river.,男孩往河里扔了一块石头。,/stoʊn/
+water,水,名词_pic,A1,There is water in the glass.,杯子里有水。,/ˈwɔːtər/
+wood,木头,名词_pic,A1,This table is made of wood.,这张桌子是木头做的。,/wʊd/
+blood,血液,名词_pic,A2,There is blood on his shirt.,他的衬衫上有血。,/blʌd/
+chalk,粉笔,名词_pic,A2,The teacher wrote on the board with chalk.,老师用粉笔在黑板上写字。,/tʃɔːk/
+coal,煤,名词_pic,A2,Coal is used for heating in winter.,冬天用煤取暖。,/koʊl/
+cotton,棉花,名词_pic,A2,This shirt is made of cotton.,这件衬衫是棉的。,/ˈkɑːtn/
+dust,灰尘,名词_pic,A2,There is dust on all the furniture.,所有家具上都有灰尘。,/dʌst/
+gold,黄金/金色,名词_pic,A2,The ring is made of pure gold.,这枚戒指是纯金做的。,/ɡoʊld/
+ink,墨水,名词_pic,A2,The pen ran out of ink.,钢笔没墨水了。,/ɪŋk/
+iron,铁/熨斗,名词_pic,A2,The gate is made of iron.,大门是铁制的。,/ˈaɪərn/
+metal,金属,名词_pic,A2,The chair is made of metal.,这把椅子是金属做的。,/ˈmetl/
+oil,油,名词_pic,A2,Use oil for cooking.,用油烹饪。,/ɔɪl/
+powder,粉末,名词_pic,A2,The medicine comes in powder form.,这种药是粉末状的。,/ˈpaʊdər/
+sand,沙子,名词_pic,A2,There is sand on the beach.,沙滩上有沙子。,/sænd/
+silver,银,名词_pic,A2,The ring is made of silver.,这枚戒指是银的。,/ˈsɪlvər/
+brick,砖块,名词_pic,A2,The house is made of bricks.,这栋房子是砖砌的。,/brɪk/
+thread,线,名词_pic,A2,There are three threads on the floor.,地板上有三根线。,/θred/
+wire,电线,名词_pic,A2,There are wires under the floor.,地板下面有电线。,/ˈwaɪər/
+copper,铜,名词_pic,B1,The pipes are made of copper.,管道是铜制的。,/ˈkɑːpər/
+grain,谷物/颗粒,名词_pic,B1,The farmer grows grain in the field.,农民在田里种植谷物。,/ɡreɪn/
+lead,铅,名词_pic,B1,The pipe is made of lead.,管道是铅制的。,/led/
+leather,皮革,名词_pic,B1,These shoes are made of good leather.,这双鞋是用好皮革做的。,/ˈleðər/
+liquid,液体,名词_pic,B1,Water is a liquid.,水是液体。,/ˈlɪkwɪd/
+paste,浆糊,名词_pic,B1,Use paste to stick the paper.,用浆糊粘纸。,/peɪst/
+poison,毒药,名词_pic,B1,The poison killed the rat.,毒药毒死了老鼠。,/ˈpɔɪzn/
+silk,丝绸,名词_pic,B1,The dress is made of pure silk.,这条裙子是纯丝绸做的。,/sɪlk/
+steam,蒸汽,名词_pic,B1,Steam rose from the hot water.,热水冒出了蒸汽。,/stiːm/
+steel,钢,名词_pic,B1,The bridge is made of strong steel.,这座桥是用坚固的钢材建造的。,/stiːl/
+tin,锡/罐头,名词_pic,B1,The tins are on the shelf.,罐头在架子上。,/tɪn/
+wax,蜡,名词_pic,B1,The wax becomes softer when it is warm.,蜡在温暖时会变得更软。,/wæks/
+wool,羊毛,名词_pic,B1,The wool is softer than cotton.,羊毛比棉花更软。,/wʊl/
+brass,黄铜,名词_pic,B2,The bell is made of brass.,这个铃是黄铜做的。,/bræs/
+canvas,帆布,名词_pic,B2,The artist painted on a large canvas.,艺术家在一块大帆布上作画。,/ˈkænvəs/
+cork,软木塞,名词_pic,B2,Pull the cork out of the bottle.,把瓶子的软木塞拔出来。,/kɔːrk/
+linen,亚麻布,名词_pic,B2,The tablecloth is made of linen.,桌布是亚麻的。,/ˈlɪnɪn/
+polish,光泽/上光剂,名词_pic,B2,The polish made the shoes shine.,鞋油让鞋子发亮。,/ˈpɑːlɪʃ/
+brother,兄弟,名词_pic,A1,My brother is taller than me.,我的哥哥比我高。,/ˈbrʌðər/
+daughter,女儿,名词_pic,A1,His daughter is younger than his son.,他的女儿比儿子年轻。,/ˈdɔːtər/
+father,父亲,名词_pic,A1,My father is taller than my mother.,我的父亲比母亲高。,/ˈfɑːðər/
+friend,朋友,名词_pic,A1,She has more friends than her sister.,她的朋友比她姐姐多。,/frend/
+man,男人,名词_pic,A1,The man is taller than the woman.,这个男人比那个女人高。,/mæn/
+mother,母亲,名词_pic,A1,My mother is kinder than my father.,我的母亲比父亲更和善。,/ˈmʌðər/
+person,人,名词_pic,A1,There are ten persons in the room.,房间里有十个人。,/ˈpɜːrsn/
+sister,姐妹,名词_pic,A1,My sister is older than me.,我姐姐比我大。,/ˈsɪstər/
+son,儿子,名词_pic,A1,Her son is taller than her daughter.,她的儿子比女儿高。,/sʌn/
+woman,女人,名词_pic,A1,The women are talking loudly.,女人们在高声谈话。,/ˈwʊmən/
+baby,婴儿,名词_pic,A1,The babies are sleeping peacefully.,婴儿们正在安静地睡觉。,/ˈbeɪbi/
+boy,男孩,名词_pic,A1,The boys are running fast.,男孩们跑得很快。,/bɔɪ/
+girl,女孩,名词_pic,A1,The girls are my daughters.,这些女孩是我的女儿。,/ɡɜːrl/
+cook,厨师,名词_pic,A1,He is a good cook.,他是个好厨师。,/kʊk/
+guide,指南/导游,名词_pic,A2,Our guide showed us the way to the top.,导游带我们登上了山顶。,/ɡaɪd/
+manager,经理,名词_pic,A2,She is the manager of the store.,她是这家商店的经理。,/ˈmænɪdʒər/
+secretary,秘书,名词_pic,A2,She works as a secretary in an office.,她在办公室做秘书。,/ˈsekrəteri/
+expert,专家,名词_abs,B1,He is an expert in computer science.,他是计算机科学方面的专家。,/ˈekspɜːrt/
+judge,法官,名词_abs,B1,The judge made a fair decision.,法官做出了公正的判决。,/dʒʌdʒ/
+owner,所有者,名词_pic,B1,The owner of the car is my neighbor.,这辆车的主人是我邻居。,/ˈoʊnər/
+porter,搬运工,名词_pic,B1,The porter carried our heavy bags.,搬运工拿着我们沉重的行李。,/ˈpɔːrtər/
+representative,代表,名词_abs,B1,He is the representative of the company.,他是公司的代表。,/ˌreprɪˈzentətɪv/
+servant,仆人,名词_abs,B1,The servant cleaned the house every day.,仆人每天打扫房子。,/ˈsɜːrvənt/
+country,国家,名词_pic,A1,China is a large country.,中国是一个大国。,/ˈkʌntri/
+end,结束/末端,名词_pic,A1,There is a shop at the end of the street.,街道的尽头有一家商店。,/end/
+front,前面,名词_pic,A1,There is a garden in front of the house.,房子前面有一个花园。,/frʌnt/
+land,土地/陆地,名词_pic,A1,This land is very fertile.,这片土地很肥沃。,/lænd/
+middle,中间,名词_pic,A1,He was standing in the middle of the room.,他站在房间中间。,/ˈmɪdl/
+mountain,山,名词_pic,A1,The mountain is very high.,这座山很高。,/ˈmaʊntn/
+place,地方,名词_pic,A1,This is a very nice place.,这是个非常好的地方。,/pleɪs/
+river,河流,名词_pic,A1,The river is wider than the stream.,这条河比那条小溪更宽。,/ˈrɪvər/
+road,道路,名词_pic,A1,The road is long and straight.,这条路又长又直。,/roʊd/
+room,房间,名词_pic,A1,There are three rooms in the house.,房子里有三个房间。,/ruːm/
+sea,海洋,名词_pic,A1,The sea is blue and wide.,大海又蓝又宽阔。,/siː/
+seat,座位,名词_pic,A1,There is an empty seat next to me.,我旁边有一个空座位。,/siːt/
+side,边/侧面,名词_pic,A1,The park is on the other side of the street.,公园在街道的另一边。,/saɪd/
+sky,天空,名词_pic,A1,The sky is blue and clear.,天空晴朗湛蓝。,/skaɪ/
+top,顶部,名词_pic,A1,The top of the mountain is higher than the base.,山顶比山脚更高。,/tɑːp/
+bridge,桥,名词_pic,A1,There is a bridge across the river.,河上有一座桥。,/brɪdʒ/
+church,教堂,名词_pic,A1,There are two churches in the town.,镇上有两座教堂。,/tʃɜːrtʃ/
+farm,农场,名词_pic,A1,There are many farms in the area.,这个地区有很多农场。,/fɑːrm/
+floor,地板,名词_pic,A1,The books are on the floor.,书在地板上。,/flɔːr/
+garden,花园,名词_pic,A1,The flowers are in the gardens.,花在花园里。,/ˈɡɑːrdn/
+hospital,医院,名词_pic,A1,There are two hospitals in the city.,这座城市有两家医院。,/ˈhɑːspɪtl/
+house,房子,名词_pic,A1,The houses are made of brick.,这些房子是砖砌的。,/haʊs/
+library,图书馆,名词_pic,A1,There is a library in the town.,镇上有一个图书馆。,/ˈlaɪbreri/
+office,办公室,名词_pic,A1,There are two offices in the building.,大楼里有两间办公室。,/ˈɔːfɪs/
+school,学校,名词_pic,A1,There are many schools in the city.,城市里有许多学校。,/skuːl/
+station,车站,名词_pic,A1,There is a station near the river.,河边有一个车站。,/ˈsteɪʃən/
+store,商店,名词_pic,A1,There are many stores on the street.,街上有许多商店。,/stɔːr/
+street,街道,名词_pic,A1,The streets are longer than the lanes.,街道比小巷更长。,/striːt/
+town,城镇,名词_pic,A1,There are three towns near the river.,河边有三个城镇。,/taʊn/
+wall,墙,名词_pic,A1,The walls of the house are thick.,房子的墙很厚。,/wɔːl/
+window,窗户,名词_pic,A1,The windows are open widely.,窗户大开着。,/ˈwɪndoʊ/
+edge,边缘,名词_pic,A2,Be careful at the edge of the cliff.,在悬崖边缘要小心。,/edʒ/
+field,田野/领域,名词_pic,A2,The cows are eating grass in the field.,奶牛在田野里吃草。,/fiːld/
+market,市场,名词_pic,A2,There is a market near the river.,河边有一个市场。,/ˈmɑːrkɪt/
+stage,舞台/阶段,名词_pic,A2,The actors walked onto the stage.,演员们走上了舞台。,/steɪdʒ/
+island,岛,名词_pic,A2,There are many islands in the sea.,海中有许多岛屿。,/ˈaɪlənd/
+roof,屋顶,名词_pic,A2,The roofs of the houses are red.,这些房子的屋顶是红色的。,/ruːf/
+harbour,港口,名词_pic,B1,The ships stayed in the harbour during the storm.,暴风雨期间船只停泊在港口。,/ˈhɑːrbər/
+mine,矿,名词_pic,B1,He worked in a coal mine for many years.,他在煤矿工作了很多年。,/maɪn/
+slope,斜坡,名词_pic,B1,The slope of the hill is very steep.,这个山坡很陡。,/sloʊp/
+prison,监狱,名词_pic,B1,There is a prison near the town.,城镇附近有一座监狱。,/ˈprɪzn/
+earth,地球/泥土,名词_pic,A1,The earth goes around the sun.,地球绕着太阳转。,/ɜːrθ/
+flower,花,名词_pic,A1,There are many flowers in the garden.,花园里有许多花。,/ˈflaʊər/
+grass,草,名词_pic,A1,The grass in the park is very green.,公园里的草非常绿。,/ɡræs/
+plant,植物,名词_pic,A1,There are many plants in the garden.,花园里有许多植物。,/plænt/
+tree,树,名词_pic,A1,The trees are taller than the houses.,这些树比房子更高。,/triː/
+leaf,叶子,名词_pic,A2,The leaves of the tree are green.,树的叶子是绿色的。,/liːf/
+root,根,名词_pic,A2,The roots of the tree are deeper than the branches are long.,这棵树的根比树枝更深。,/ruːt/
+seed,种子,名词_pic,A2,The seeds are planted in the earth.,种子被种在土里。,/siːd/
+stem,茎,名词_pic,B1,The stems of the flowers are green.,花的茎是绿色的。,/stem/
+colour,颜色,名词_pic,A1,My favorite color is blue.,我最喜欢的颜色是蓝色。,/ˈkʌlər/
+size,尺寸,名词_pic,A1,What size shoes do you wear?,你穿多大码的鞋？,/saɪz/
+weight,重量,名词_pic,B1,The weight of the box is heavier than the weight of the bag.,箱子的重量比袋子更重。,/weɪt/
+bit,小片,名词_pic,A1,There is a small bit of bread on the plate.,盘子上有一小块面包。,/bɪt/
+drop,一滴,名词_pic,A2,There are drops of water on the floor.,地板上有几滴水。,/drɑːp/
+taste,味道,名词_pic,A1,The taste of the soup is better than yesterday.,今天汤的味道比昨天更好。,/teɪst/
+smell,气味,名词_pic,A2,The smell of fresh bread is wonderful.,新鲜面包的气味真好闻。,/smel/
+circle,圆形,名词_pic,A1,Draw three circles on the paper.,在纸上画三个圆。,/ˈsɜːrkl/
+angle,角/角度,名词_pic,A2,Draw two angles on the paper.,在纸上画两个角。,/ˈæŋɡl/
+square,正方形,名词_pic,A2,There are four squares on the paper.,纸上有四个正方形。,/skwer/
+curve,曲线,名词_pic,B1,There is a sharp curve in the road ahead.,前面路上有一个急弯。,/kɜːrv/
+arch,拱门,名词_pic,B1,The arches of the bridge are higher than those of the old bridge.,这座桥的拱门比旧桥的更高。,/ɑːrtʃ/
+moon,月亮,名词_pic,A1,The moon is brighter than the stars.,月亮比星星更亮。,/muːn/
+star,星星,名词_pic,A1,The stars are brighter at night.,星星在夜晚更亮。,/stɑːr/
+sun,太阳,名词_pic,A1,The sun is brighter than the moon.,太阳比月亮更亮。,/sʌn/
+building,建筑/建筑物,名词_pic,A1,There are many tall buildings in the city.,城市里有许多高楼大厦。,/ˈbɪldɪŋ/
+cover,盖子/封面,名词_pic,A1,Put the cover back on the pot.,把盖子盖回锅上。,/ˈkʌvər/
+fire,火,名词_pic,A1,The fire is very hot.,火很热。,/ˈfaɪər/
+hole,洞,名词_pic,A1,There is a hole in my sock.,我的袜子上有一个洞。,/hoʊl/
+letter,信件/字母,名词_pic,A1,I received a long letter from my friend.,我收到了朋友的一封长信。,/ˈletər/
+light,光/灯,名词_pic,A1,"Turn on the light, please.",请开灯。,/laɪt/
+list,列表,名词_pic,A1,Make a shopping list before you go to the store.,去商店前列一个购物清单。,/lɪst/
+machine,机器,名词_pic,A1,This machine is faster than the old one.,这台机器比旧的那台更快。,/məˈʃiːn/
+page,页面,名词_pic,A1,Please turn to page ten.,请翻到第十页。,/peɪdʒ/
+sign,标志/符号,名词_pic,A1,There is a stop sign at the corner.,拐角处有一个停车标志。,/saɪn/
+bag,袋子,名词_pic,A1,There are two bags on the floor.,地板上有两个袋子。,/bæɡ/
+ball,球,名词_pic,A1,The boys are playing with balls.,男孩们在玩球。,/bɔːl/
+basket,篮子,名词_pic,A1,There are three baskets in the room.,房间里有三个篮子。,/ˈbæskɪt/
+bath,浴缸/洗澡,名词_pic,A1,The baths are being cleaned now.,浴缸正在清洗中。,/bæθ/
+bed,床,名词_pic,A1,There are two beds in the room.,房间里有两张床。,/bed/
+bell,铃铛,名词_pic,A1,The bells are ringing loudly.,铃铛在响亮地响着。,/bel/
+board,木板,名词_pic,A1,There are several boards on the floor.,地板上有几块木板。,/bɔːrd/
+boat,船,名词_pic,A1,The boats are moving slowly on the water.,船在水面上缓慢移动。,/boʊt/
+book,书,名词_pic,A1,There are many books on the shelf.,书架上有许多书。,/bʊk/
+boot,靴子,名词_pic,A1,Put your boots on quickly.,快穿上你的靴子。,/buːt/
+bottle,瓶子,名词_pic,A1,The bottles are on the table.,瓶子在桌子上。,/ˈbɑːtl/
+box,盒子,名词_pic,A1,There are five boxes in the corner.,角落里有五个盒子。,/bɑːks/
+brush,刷子,名词_pic,A1,Use a brush to clean your hair.,用梳子梳理你的头发。,/brʌʃ/
+button,纽扣,名词_pic,A1,Two buttons came off his coat.,他的外套掉了两颗纽扣。,/ˈbʌtn/
+card,卡片,名词_pic,A1,There are many cards on the table.,桌子上有很多卡片。,/kɑːrd/
+clock,钟,名词_pic,A1,The clocks on the wall are different.,墙上的钟不一样。,/klɑːk/
+coat,外套,名词_pic,A1,Put your coats on the hook.,把你们的外套挂在钩子上。,/koʊt/
+cup,杯子,名词_pic,A1,She gave me three cups of tea.,她给了我三杯茶。,/kʌp/
+door,门,名词_pic,A1,The doors of the house are made of wood.,房子的门是木头做的。,/dɔːr/
+dress,连衣裙,名词_pic,A1,The dresses are hanging on the line.,连衣裙挂在晾衣绳上。,/dres/
+fork,叉子,名词_pic,A1,Use the forks to eat your food.,用叉子吃东西。,/fɔːrk/
+hat,帽子,名词_pic,A1,The hats are on the table.,帽子在桌子上。,/hæt/
+key,钥匙,名词_pic,A1,There are two keys on the table.,桌上有两把钥匙。,/kiː/
+knife,刀,名词_pic,A1,The knives are on the table.,刀在桌子上。,/naɪf/
+line,线/线条,名词_pic,A1,Draw three straight lines on the paper.,在纸上画三条直线。,/laɪn/
+pen,钢笔,名词_pic,A1,The pens are on the desk.,钢笔在桌子上。,/pen/
+pencil,铅笔,名词_pic,A1,There are ten pencils in the box.,盒子里有十支铅笔。,/ˈpensl/
+picture,图画,名词_pic,A1,The pictures on the wall are beautiful.,墙上的图画很美。,/ˈpɪktʃər/
+plate,盘子,名词_pic,A1,There are five plates on the table.,桌子上有五个盘子。,/pleɪt/
+pocket,口袋,名词_pic,A1,His pockets are full of money.,他的口袋里装满了钱。,/ˈpɑːkɪt/
+pot,锅/罐子,名词_pic,A1,There are two pots on the fire.,火上有两个锅。,/pɑːt/
+ship,船,名词_pic,A1,The ships are sailing on the sea.,船只在海上航行。,/ʃɪp/
+spoon,勺子,名词_pic,A1,There are three spoons on the table.,桌上有三把勺子。,/spuːn/
+ticket,票,名词_pic,A1,The tickets are on the table.,票在桌子上。,/ˈtɪkɪt/
+watch,手表,名词_pic,A1,The watches are on the table.,手表在桌子上。,/wɑːtʃ/
+wheel,轮子,名词_pic,A1,The wheels of the car are bigger than the wheels of the bike.,汽车的轮子比自行车的更大。,/wiːl/
+copy,副本,名词_abs,A2,I need a copy of the report.,我需要一份报告的副本。,/ˈkɑːpi/
+lift,电梯,名词_pic,A2,Take the lift to the fifth floor.,乘电梯到五楼。,/lɪft/
+mark,标记/分数,名词_pic,A2,Put a mark on the box.,在盒子上做个标记。,/mɑːrk/
+note,笔记/便条,名词_pic,A2,Take notes during the lesson.,上课记笔记。,/noʊt/
+roll,卷/面包卷,名词_pic,A2,I ate a bread roll with butter.,我吃了一个涂黄油的面包卷。,/roʊl/
+shade,阴凉处,名词_pic,A2,Let's sit in the shade of the tree.,我们坐在树荫下吧。,/ʃeɪd/
+smoke,烟,名词_pic,A2,There is smoke coming out of the chimney.,烟从烟囱里冒出来。,/smoʊk/
+wave,波浪,名词_pic,A2,The waves are higher today than yesterday.,今天的波浪比昨天更高。,/weɪv/
+band,带子/乐队,名词_pic,A2,The rubber bands are of different sizes.,这些橡皮筋有不同的大小。,/bænd/
+basin,盆,名词_pic,A2,The basins are full of water.,盆里装满了水。,/ˈbeɪsn/
+brake,刹车,名词_pic,A2,The brakes of the car are working well.,这辆车的刹车很好用。,/breɪk/
+branch,树枝,名词_pic,A2,The branches of this tree are longer than those of that tree.,这棵树的树枝比那棵更长。,/bræntʃ/
+bucket,桶,名词_pic,A2,There are two buckets of water.,有两桶水。,/ˈbʌkɪt/
+bulb,灯泡,名词_pic,A2,The bulbs give light.,灯泡会发光。,/bʌlb/
+camera,相机,名词_pic,A2,The cameras are on the shelf.,相机在架子上。,/ˈkæmərə/
+cart,手推车,名词_pic,A2,The carts are pulled by horses.,这些马车由马拉动。,/kɑːrt/
+collar,衣领,名词_pic,A2,The collars of the shirts are dirty.,衬衫的衣领脏了。,/ˈkɑːlər/
+comb,梳子,名词_pic,A2,She used two combs on her hair.,她用两把梳子梳理头发。,/koʊm/
+curtain,窗帘,名词_pic,A2,The curtains are longer than the windows.,窗帘比窗户更长。,/ˈkɜːrtn/
+cushion,靠垫,名词_pic,A2,There are four cushions on the seat.,座位上有四个靠垫。,/ˈkʊʃən/
+drawer,抽屉,名词_pic,A2,There are many papers in the drawers.,抽屉里有很多文件。,/drɔːr/
+engine,发动机,名词_pic,A2,The engines of the cars are hot.,汽车的发动机很热。,/ˈendʒɪn/
+feather,羽毛,名词_pic,A2,The birds have white feathers.,这些鸟有白色的羽毛。,/ˈfeðər/
+flag,旗帜,名词_pic,A2,The flags are flying high.,旗帜在高高飘扬。,/flæɡ/
+glove,手套,名词_pic,A2,Put your gloves on quickly.,快戴上你们的手套。,/ɡlʌv/
+gun,枪,名词_pic,A2,The guns are on the table.,枪在桌子上。,/ɡʌn/
+hammer,锤子,名词_pic,A2,He used two hammers to do the work.,他用两把锤子做这项工作。,/ˈhæmər/
+kettle,水壶,名词_pic,A2,The kettles are on the fire.,水壶在火上。,/ˈketl/
+lock,锁,名词_pic,A2,The locks on the doors are old.,门上的锁很旧了。,/lɑːk/
+map,地图,名词_pic,A2,There are two maps on the wall.,墙上有两张地图。,/mæp/
+match,火柴,名词_pic,A2,The matches are in the box.,火柴在盒子里。,/mætʃ/
+needle,针,名词_pic,A2,There are three needles on the table.,桌上有三根针。,/ˈniːdl/
+net,网,名词_pic,A2,The fishermen pulled the nets out of the water quickly.,渔民们快速地把网从水里拉出来。,/net/
+oven,烤箱,名词_pic,A2,The ovens are hotter than before.,烤箱比以前更热了。,/ˈʌvn/
+parcel,包裹,名词_pic,A2,There are three parcels on the floor.,地板上有三个包裹。,/ˈpɑːrsl/
+pin,大头针,名词_pic,A2,There are pins on the floor.,地板上有大头针。,/pɪn/
+pipe,管子,名词_pic,A2,The pipes are made of steel.,这些管子是钢制的。,/paɪp/
+plane,飞机/刨子,名词_pic,A2,The planes are flying high in the sky.,飞机在高空飞行。,/pleɪn/
+ring,戒指/铃声,名词_pic,A2,The rings are made of gold.,这些戒指是黄金做的。,/rɪŋ/
+shelf,架子,名词_pic,A2,The shelves are full of books.,架子上放满了书。,/ʃelf/
+stamp,邮票,名词_pic,A2,The stamps are on the envelope.,邮票在信封上。,/stæmp/
+stick,棍子,名词_pic,A2,The sticks are lying on the ground.,棍子躺在地上。,/stɪk/
+tray,托盘,名词_pic,A2,There are trays on the table.,桌上有托盘。,/treɪ/
+umbrella,雨伞,名词_pic,A2,There are two umbrellas by the door.,门边有两把雨伞。,/ʌmˈbrelə/
+crack,裂缝,名词_pic,B1,There is a crack in the window.,窗户上有一条裂缝。,/kræk/
+flame,火焰,名词_pic,B1,The flames of the fire were high.,火焰很高。,/fleɪm/
+instrument,仪器/乐器,名词_pic,B1,The doctor used a sharp instrument.,医生使用了一个锋利的器械。,/ˈɪnstrəmənt/
+join,连接处,名词_pic,B1,The join between the two pipes is leaking.,两个管道的连接处正在漏水。,/dʒɔɪn/
+ornament,装饰品,名词_pic,B1,There are ornaments on the Christmas tree.,圣诞树上有装饰品。,/ˈɔːrnəmənt/
+ray,光线,名词_pic,B1,A ray of light came through the window.,一束光线透过窗户照了进来。,/reɪ/
+stitch,缝线/针脚,名词_pic,B1,She made small stitches on the cloth.,她在布上缝了小针脚。,/stɪtʃ/
+vessel,容器/船只,名词_pic,B1,There are two vessels in the harbor.,港口里有两条船。,/ˈvesl/
+wound,伤口,名词_pic,B1,The wound on his leg is worse than the wound on his arm.,他腿上的伤口比手臂上的更严重。,/wuːnd/
+blade,刀片,名词_pic,B1,The blades of these knives are sharper than those.,这些刀的刀片比那些更锋利。,/bleɪd/
+carriage,马车/车厢,名词_pic,B1,The carriages of the train are longer than the old ones.,这列火车的车厢比旧的长。,/ˈkærɪdʒ/
+chain,链条,名词_pic,B1,The chains are made of steel.,链条是钢制的。,/tʃeɪn/
+cord,绳子,名词_pic,B1,There are three cords on the floor.,地上有三条绳子。,/kɔːrd/
+drain,排水管,名词_pic,B1,The drains are blocked with leaves.,排水管被树叶堵住了。,/dreɪn/
+frame,框架,名词_pic,B1,The frames of the pictures are made of wood.,画框是木头做的。,/freɪm/
+hook,钩子,名词_pic,B1,There are three hooks on the wall.,墙上有三个钩子。,/hʊk/
+jewel,珠宝,名词_pic,B1,The jewels are kept in a box.,珠宝被放在一个盒子里。,/ˈdʒuːəl/
+knot,结,名词_pic,B1,He made two knots in the rope.,他在绳子上打了两个结。,/nɑːt/
+pump,泵,名词_pic,B1,The pumps are working well.,这些泵运转良好。,/pʌmp/
+rail,铁轨,名词_pic,B1,The rails are longer than the train.,铁轨比火车更长。,/reɪl/
+receipt,收据,名词_pic,B1,There are two receipts in the bag.,袋子里有两张收据。,/rɪˈsiːt/
+rod,杆/棒,名词_pic,B1,The rods are made of metal.,这些杆子是金属做的。,/rɑːd/
+sail,帆,名词_pic,B1,The sails of the boat are white.,船的帆是白色的。,/seɪl/
+screw,螺丝,名词_pic,B1,The screws are smaller than the nails.,这些螺丝比钉子更小。,/skruː/
+sponge,海绵,名词_pic,B1,The sponges are soft and wet.,海绵又软又湿。,/spʌndʒ/
+whistle,哨子,名词_pic,B1,The whistles are loud.,哨子声音很响。,/ˈwɪsl/
+day,一天/白天,名词_pic,A1,There are seven days in a week.,一周有七天。,/deɪ/
+hour,小时,名词_pic,A1,I will be back in an hour.,我一小时后回来。,/ˈaʊər/
+minute,分钟,名词_pic,A1,There are sixty minutes in an hour.,一小时有六十分钟。,/ˈmɪnɪt/
+month,月份,名词_pic,A1,There are twelve months in a year.,一年有十二个月。,/mʌnθ/
+morning,早晨,名词_pic,A1,I wake up early every morning.,我每天早上早起。,/ˈmɔːrnɪŋ/
+night,夜晚,名词_pic,A1,It is cold at night.,夜晚很冷。,/naɪt/
+summer,夏天,名词_pic,A1,Summer is warmer than spring.,夏天比春天更暖和。,/ˈsʌmər/
+week,星期,名词_pic,A1,There are seven days in a week.,一周有七天。,/wiːk/
+winter,冬天,名词_pic,A1,Winter is colder than summer.,冬天比夏天更冷。,/ˈwɪntər/
+year,年,名词_pic,A1,There are twelve months in a year.,一年有十二个月。,/jɪr/
+spring,春天/弹簧,名词_pic,A2,Spring is warmer than winter.,春天比冬天更暖和。,/sprɪŋ/
+scissors,剪刀,名词_pic,A2,The scissors are on the desk.,剪刀在桌子上。,/ˈsɪzərz/
+spade,铲子,名词_pic,A2,The spades are in the garden.,铲子在花园里。,/speɪd/
+plough,犁,名词_pic,B1,The ploughs are made of iron.,这些犁是铁制的。,/plaʊ/
+whip,鞭子,名词_pic,B1,The whips are on the wall.,鞭子在墙上。,/wɪp/
+train,火车,名词_pic,A1,The trains are faster than the buses.,火车比公共汽车更快。,/treɪn/
+rain,雨,名词_pic,A1,The rain is falling heavily.,雨下得很大。,/reɪn/
+snow,雪,名词_pic,A1,The snow is whiter than the clouds.,雪比云更白。,/snoʊ/
+cloud,云,名词_pic,A1,The clouds are moving quickly across the sky.,云在天空中快速移动。,/klaʊd/
+wind,风,名词_pic,A2,The wind is blowing strongly.,风猛烈地吹着。,/wɪnd/
+mist,薄雾,名词_pic,B1,The mist cleared in the morning.,早晨雾散了。,/mɪst/
+thunder,雷声,名词_pic,B1,The thunder was louder than the rain.,雷声比雨声更大。,/ˈθʌndər/
+about,关于,介词_prep,A1,There is a book about animals on the shelf.,架子上有一本关于动物的书。,/əˈbaʊt/
+after,在...之后,介词_prep,A1,"After the rain stopped, the sun came out.",雨停之后，太阳出来了。,/ˈæftər/
+at,在,介词_prep,A1,He is waiting at the bus stop.,他在公交车站等着。,/æt/
+before,在...之前,介词_prep,A1,Wash your hands before every meal.,每餐前都要洗手。,/bɪˈfɔːr/
+between,在...之间,介词_prep,A1,The bank is between the school and the hospital.,银行在学校和医院之间。,/bɪˈtwiːn/
+by,在...旁边/通过,介词_prep,A1,The book was written by a famous writer.,这本书是一位著名作家写的。,/baɪ/
+down,向下,介词_prep,A1,The water is running down the pipe.,水正顺着管子往下流。,/daʊn/
+from,从,介词_prep,A1,I got a letter from my brother yesterday.,我昨天收到了弟弟的来信。,/frʌm/
+in,在...里,介词_prep,A1,The pen is in my pocket.,钢笔在我的口袋里。,/ɪn/
+on,在...上,介词_prep,A1,The book is on the desk.,书在桌子上。,/ɑːn/
+over,在...上方,介词_prep,A1,The plane flew over the city.,飞机飞过了城市上空。,/ˈoʊvər/
+through,穿过,介词_prep,A1,The train went through a long tunnel.,火车穿过了一条长长的隧道。,/θruː/
+to,到/向,介词_prep,A1,She gave a present to her mother.,她给母亲送了一份礼物。,/tuː/
+under,在...下面,介词_prep,A1,The cat is sleeping under the bed.,猫在床底下睡觉。,/ˈʌndər/
+up,向上,介词_prep,A1,He climbed up the ladder slowly.,他慢慢地爬上了梯子。,/ʌp/
+with,和...一起,介词_prep,A1,I went for a walk with my friend.,我和朋友一起去散步了。,/wɪð/
+as,作为,介词_prep,A1,He works as a teacher in a small school.,他在一所小学校里当老师。,/æz/
+for,为了,介词_prep,A1,This gift is for you.,这份礼物是给你的。,/fɔːr/
+of,...的,介词_prep,A1,The color of the sky is blue.,天空的颜色是蓝色的。,/ʌv/
+across,穿过,介词_prep,A2,The boy ran across the road quickly.,男孩快速跑过了马路。,/əˈkrɔːs/
+against,反对/靠着,介词_prep,A2,Do not put the ladder against the window.,不要把梯子靠在窗户上。,/əˈɡenst/
+off,离开/关掉,介词_prep,A2,Take your feet off the table.,把你的脚从桌子上拿开。,/ɔːf/
+till,直到,介词_prep,A2,Wait till I come back.,等我回来。,/tɪl/
+among,在...之中,介词_prep,B1,She is sitting among her friends.,她坐在朋友们中间。,/əˈmʌŋ/
+I,我,代词_pron,A1,I am taller than my brother.,我比我哥哥高。,/aɪ/
+he,他,代词_pron,A1,He runs faster than me.,他跑得比我快。,/hiː/
+you,你/你们,代词_pron,A1,You are the best student in the class.,你是班上最好的学生。,/juː/
+who,谁,代词_pron,A1,Who is that man at the door?,门口那个人是谁？,/huː/
+send,发送,动词_operator,A2,She sent a letter to her mother yesterday.,她昨天给母亲寄了一封信。,/send/
+be,是,动词_operator,A1,There are two apples on the table.,桌上有两个苹果。,/biː/
+do,做,动词_operator,A1,Do your work more carefully next time.,下次更仔细地做你的工作。,/duː/
+have,有,动词_operator,A1,"She has two brothers, but he has three.",她有两个兄弟，但他有三个。,/hæv/
+come,来,动词_operator,A1,The boys came to the house quickly.,男孩们很快来到了房子。,/kʌm/
+get,得到,动词_operator,A1,She got a letter from her friend yesterday.,她昨天收到了朋友的来信。,/ɡet/
+give,给予,动词_operator,A1,He gave his sister a bigger apple than me.,他给了他妹妹一个比我更大的苹果。,/ɡɪv/
+go,去,动词_operator,A1,They go to school earlier than we do.,他们比我们更早去上学。,/ɡoʊ/
+let,让,动词_operator,A1,Let the children play in the garden.,让孩子们在花园里玩。,/let/
+make,制作,动词_operator,A1,She made three cakes for the party.,她为派对做了三个蛋糕。,/meɪk/
+put,放置,动词_operator,A1,Put the books on the table.,把书放在桌子上。,/pʊt/
+take,拿/带走,动词_operator,A1,Take your shoes off before you come in.,进来前把你的鞋脱掉。,/teɪk/
+keep,保持,动词_operator,A2,Keep the door shut.,把门关着。,/kiːp/
+seem,似乎,动词_operator,A2,The task seems easier than before.,这个任务似乎比以前更容易了。,/siːm/
+see,看见,动词_operator,A1,I saw a bird flying high in the sky.,我看到一只鸟在高空飞翔。,/siː/
+say,说,动词_operator,A1,He said the words clearly.,他清楚地说出了那些话。,/seɪ/
